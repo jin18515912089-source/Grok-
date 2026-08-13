@@ -1,10 +1,12 @@
 # 下载说明
 
-对话里的 Markdown 预览**不能直接另存为文件**。请用下面任一方式下载。
+请下载**完整 50 题结果包**（每题一个文件夹，PPT/Excel/Word 已放在对应题目录内，不是单独附件）。
 
-## 推荐：ZIP（一次下全套）
+## 唯一推荐：完整包 ZIP
 
-仓库内路径：`download/OPENROUTER_TEXT_PROXY_BATCH_50_ANSWERS.zip`
+`download/BATCH50_COMPLETE_T01-T50.zip`
+
+解压后得到 `BATCH50_COMPLETE/T01_…` 到 `T50_…`。需要课件或表格的题目，文件就在该题文件夹里。
 
 GitHub 打开该 ZIP 后点 **Download** / **View raw**。  
 ZIP 内含：
