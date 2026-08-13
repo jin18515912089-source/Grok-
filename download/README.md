@@ -1,24 +1,34 @@
-# 下载说明
+# 完整 50 题结果（唯一交付包）
 
-请下载**完整 50 题结果包**（每题一个文件夹，PPT/Excel/Word 已放在对应题目录内，不是单独附件）。
+请只下载这一个 ZIP。PPT、Excel、Word **已经放进对应题目文件夹**，不要再找单独的 office 附件。
 
-## 唯一推荐：完整包 ZIP
+**文件：** `download/BATCH50_COMPLETE_T01-T50.zip`
 
-`download/BATCH50_COMPLETE_T01-T50.zip`
+**直接下载（私有仓库，需登录 GitHub）：**  
+https://github.com/jin18515912089-source/Grok-/raw/cursor/openrouter-fable-batch50-9d56/download/BATCH50_COMPLETE_T01-T50.zip
 
-解压后得到 `BATCH50_COMPLETE/T01_…` 到 `T50_…`。需要课件或表格的题目，文件就在该题文件夹里。
+解压后得到：
 
-GitHub 打开该 ZIP 后点 **Download** / **View raw**。  
-ZIP 内含：
+```
+BATCH50_COMPLETE/
+  00_README.txt          使用说明
+  00_INDEX.csv           50 题索引（含每题办公文件名）
+  00_ALL_ANSWERS.md      50 题文字合订
+  T01_…/ANSWER.md
+  T02_…/ANSWER.md
+  …
+  T06_区域销售经营汇报PPT/
+      ANSWER.md
+      T06_Q2_Regional_Sales_Review.pptx
+  T11_销售数据清洗与汇总/
+      ANSWER.md
+      T11_Sales_Orders_Clean_Summary.xlsx
+  …
+  T50_CEO董事会综合材料/
+      ANSWER.md
+      T50_Board_Memo.docx
+      T50_Board_Pack.pptx
+      T50_Board_KPI_Appendix.xlsx
+```
 
-- `OPENROUTER_TEXT_PROXY_BATCH_50_ANSWERS.md` — 完整作答（评分用边界标记）
-- `OPENROUTER_TEXT_PROXY_BATCH_50_ANSWERS.txt` — 同内容纯文本
-- `T01-T25.txt` / `T26-T50.txt` — 分卷，体积更小
-
-## 直接链接（需已登录 GitHub）
-
-- ZIP：https://github.com/jin18515912089-source/Grok-/raw/cursor/openrouter-fable-batch50-9d56/download/OPENROUTER_TEXT_PROXY_BATCH_50_ANSWERS.zip
-- 全文 TXT：https://github.com/jin18515912089-source/Grok-/raw/cursor/openrouter-fable-batch50-9d56/download/OPENROUTER_TEXT_PROXY_BATCH_50_ANSWERS.txt
-- 全文 MD：https://github.com/jin18515912089-source/Grok-/raw/cursor/openrouter-fable-batch50-9d56/download/OPENROUTER_TEXT_PROXY_BATCH_50_ANSWERS.md
-
-若页面只显示文本、没有下载按钮：用浏览器 **另存为**，或把地址里的 `/blob/` 改成 `/raw/`。
+每题一个文件夹：`ANSWER.md` 是完整作答；该题若要求 PPT/Excel/Word，二进制文件与答案在同一文件夹。
