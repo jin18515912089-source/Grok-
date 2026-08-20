@@ -1,0 +1,33 @@
+{
+  "graded_tasks": 50,
+  "overall_quality_score": 81.9,
+  "completion_rate": 1.0,
+  "severe_error_rate": 0.02,
+  "human_review_count": 21,
+  "domain_scores": {
+    "管理沟通与写作": 85.6,
+    "演示与可视化": 84.6,
+    "电子表格与数据处理": 68.0,
+    "营销、销售与客户": 86.2,
+    "法律、合规与政策": 84.8,
+    "研究、分析与尽调": 84.0,
+    "财务、投资与会计": 84.4,
+    "运营、项目与采购": 80.2,
+    "人力资源与内部沟通": 91.0,
+    "综合代理式白领任务": 70.2
+  },
+  "warnings": [],
+  "checks": [
+    "GPT5.6_batch_scores.xlsx: present (91295 bytes)",
+    "scores.csv: present (26882 bytes)",
+    "GPT5.6_grading_report.docx: present (41365 bytes)",
+    "grading_progress.csv: present (619 bytes)",
+    "scores.csv: exactly 50 ordered task rows",
+    "grading_progress.csv: 50 GRADED rows",
+    "workbook: required sheets and 50 TaskScores rows",
+    "report DOCX: opens successfully",
+    "dimension maxima: 10.0 for every task",
+    "GPT5.6_grading_bundle.zip: valid ZIP with four required files"
+  ],
+  "bundle": "/workspace/grading_results/GPT5.6_grading_bundle.zip"
+}

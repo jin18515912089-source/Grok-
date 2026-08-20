@@ -1,0 +1,314 @@
+{
+  "tasks": [
+    {
+      "task_id": "T36",
+      "domain": "运营、项目与采购",
+      "submission_status": "COMPLETE",
+      "required_files": "1个可编辑中文XLSX或DOCX，包含项目计划表、简易甘特图、RACI和风险登记册",
+      "actual_files": "T36_跨职能上线计划.xlsx；_submission_note.md（仅提交说明，未作为主答案计分）",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "排程准确性",
+          "max_points": 3.0,
+          "score": 2.6,
+          "evidence": "Schedule表逐项列出A 9/1–9/3、B 9/4–9/9、C 9/4–9/10、D 9/10–9/21、E 9/10–9/17、F 9/22–9/25、G 9/28–9/30、H 10/1；F依赖D,E，G依赖C,F。Schedule日期正确，但Gantt将F的零基工作日起始偏移写为16；按A=0、B=3、D=7且D持续8天，F应从偏移15开始。",
+          "deduction_reason": "扣0.4：Schedule中的日期和依赖正确、未触发CAP，但Gantt的F起始偏移应为15而不是16，与自身时间轴不一致。"
+        },
+        {
+          "dimension": "关键路径与缓冲",
+          "max_points": 1.5,
+          "score": 1.2,
+          "evidence": "Gantt表将A、B、D、F、G、H标为Yes，C、E标为No；Risks表说明Legal延迟3天约至9/15仍早于G的9/28开始。",
+          "deduction_reason": "正确识别A-B-D-F-G-H并说明Legal有浮动，但未量化Legal总浮动或明确缓冲耗尽边界。"
+        },
+        {
+          "dimension": "RACI质量",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "RACI覆盖A至H全部任务，每行仅有一个A字段；Program Lead、COO Sponsor、Product、Engineering、Legal、Marketing、InfoSec和Enablement分工合理。",
+          "deduction_reason": "无扣分；每项唯一Accountable且关键职能覆盖完整。"
+        },
+        {
+          "dimension": "风险与缓释",
+          "max_points": 2.0,
+          "score": 1.0,
+          "evidence": "Risks表覆盖Legal延迟、单一UAT环境、Marketing 9/14–15休假，并分别提出提前介入/预留缓冲、提前预约/错峰、副手覆盖。",
+          "deduction_reason": "三项均没有责任人和可操作触发条件；缓释措施较简略，无法形成可追踪的风险闭环。"
+        },
+        {
+          "dimension": "文件与可用性",
+          "max_points": 2.0,
+          "score": 0.9,
+          "evidence": "XLSX可由openpyxl正常打开，含Schedule、Gantt、RACI、Risks四个可编辑工作表；列宽及表头样式已设置。",
+          "deduction_reason": "Gantt表只有偏移、工期和关键路径五列表格，没有日期时间轴、条形区或图表，未形成简易甘特图；公式载入与data-only载入结果相同，整本无公式，日期还是文本常量且无状态字段；核心表头和任务名主要为英文，不完全满足中文输出与易维护要求。"
+        }
+      ],
+      "subtotal": 7.2,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 7.2,
+      "top_issues": [
+        "Gantt将F的零基工作日起始偏移写成16，正确应为15，与Schedule日期不一致。",
+        "Gantt工作表仅列开始偏移和工期，没有时间轴或进度条，甘特图交付不完整。",
+        "风险登记册缺少每项风险的触发条件和责任人；工作簿也无公式联动，维护性有限。"
+      ],
+      "strengths": [
+        "Schedule中的A至H日期、23个工作日总工期及F/G汇合依赖准确，10月1日上线。",
+        "关键路径识别正确，RACI覆盖全部任务且每行唯一A。"
+      ],
+      "confidence": "MEDIUM",
+      "human_review_flag": "YES",
+      "human_review_reason": "工作簿可完整解析，但“仅有偏移/工期表是否可视为简易甘特图”存在一定人工判定空间。"
+    },
+    {
+      "task_id": "T37",
+      "domain": "运营、项目与采购",
+      "submission_status": "COMPLETE",
+      "required_files": "1份可执行中文SOP，包含角色、步骤、控制点、例外和完成定义",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "流程完整性",
+          "max_points": 2.5,
+          "score": 2.1,
+          "evidence": "编号流程从合同/销售移交、项目启动和信息确认开始，覆盖安全问卷、沙箱、管理员培训、迁移前样本确认、迁移、迁移后抽样、上线确认以及上线后7/30天复盘。",
+          "deduction_reason": "没有单列上线后支持/超关怀的执行步骤、期限和输出；支持仅在DoD中写为“完成交接”。"
+        },
+        {
+          "dimension": "控制与证据",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "明确“无安全问卷不得开生产”、迁移前客户签字确认样本、迁移后抽样10%且至少100条、上线双方确认；DoD再次要求客户签字。",
+          "deduction_reason": "无扣分；四项Gold控制均被写成门槛并配有记录或签字证据。"
+        },
+        {
+          "dimension": "角色与升级",
+          "max_points": 2.0,
+          "score": 1.7,
+          "evidence": "列明销售、CS、实施经理、数据团队、安全团队、COO职责，禁止销售自行承诺上线日；P1指向实施经理，疑似数据错误指向数据团队，客户在样本和上线确认步骤承担责任。",
+          "deduction_reason": "客户未列入正式角色职责表；P1和数据问题只指定首接团队，未说明升级层级、响应时限或何时升级至管理层。"
+        },
+        {
+          "dimension": "例外与完成定义",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "紧急客户仅可由COO批准先开沙箱，安全问卷须5个工作日内补交并保留审批/补录证据；DoD完整列出生产可登录、关键流程验收、客户签字和支持交接四项。",
+          "deduction_reason": "无扣分；例外审批、补录期限和四项DoD与Gold checks一致。"
+        },
+        {
+          "dimension": "SOP格式与可用性",
+          "max_points": 2.0,
+          "score": 1.7,
+          "evidence": "文档使用六个清晰章节和十步表格，每步列输入、责任人、输出、控制证据，并另列关键控制、例外、DoD及风险提示。",
+          "deduction_reason": "缺少版本号、生效日期、修订记录等版本信息，也没有可勾选的上线检查清单。"
+        }
+      ],
+      "subtotal": 9.0,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.0,
+      "top_issues": [
+        "上线后支持没有独立执行步骤，只有DoD中的“支持完成交接”。",
+        "客户未进入正式角色表，P1/数据问题升级也缺少时限与更高层升级条件。",
+        "SOP缺少版本号、生效日期、修订记录和可勾选检查清单。"
+      ],
+      "strengths": [
+        "安全、样本、10%且至少100条抽样、双方确认和客户签字等关键门槛准确完整。",
+        "COO紧急沙箱例外与5个工作日补问卷写得明确，四项DoD完整。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "文本完整可读，关键Gold控制和缺口均可直接核验。"
+    },
+    {
+      "task_id": "T38",
+      "domain": "运营、项目与采购",
+      "submission_status": "COMPLETE",
+      "required_files": "一周排班表、约束检查和备选方案，中文输出",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "硬约束满足",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "10个AM/PM班次均恰有2人；逐班检查显示均由A/B/D之一提供Bilingual；Tue PM有Senior A，Thu PM有Senior C。逐人复算A/B/C/D/E分别5/4/4/3/4次，均不超6/7/5/6/8上限，且未排到各自不可用时段。",
+          "deduction_reason": "无扣分；逐班、逐人复核未发现硬约束违反，不触发CAP。"
+        },
+        {
+          "dimension": "均衡与软约束",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "工作量为5/4/4/3/4，极差2；无人同日兼AM和PM；Friday PM由本周累计3班的D和4班的E承担。",
+          "deduction_reason": "无扣分；分配均衡且双班和周五疲劳偏好均满足。"
+        },
+        {
+          "dimension": "约束检查",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "文档提供逐人班次数/Max表、10班Bilingual逐班表、Tue/Thu PM Senior检查、逐人可用性检查及两项偏好检查；统计合计20个人班次，与10班×2人一致。",
+          "deduction_reason": "无扣分；验证覆盖语言、资历、可用性和个人上限。"
+        },
+        {
+          "dimension": "备选与韧性",
+          "max_points": 1.5,
+          "score": 0.3,
+          "evidence": "文档尝试处理D不可用，指出周三PM将失去Bilingual，并提出借调或用A替换。",
+          "deduction_reason": "没有给出满足现有约束的可执行替换：A明确不可排Wed PM，外部借调人员未定义技能/可用性；且D还承担Thu PM和Fri PM，方案未处理这两班。按“备选无法满足语言或资历最多0.5”锚点限分。"
+        },
+        {
+          "dimension": "格式与可用性",
+          "max_points": 1.5,
+          "score": 1.4,
+          "evidence": "主排班使用周一至周五AM/PM矩阵，技能、班次数、上限、可用性和例外说明分区清晰。",
+          "deduction_reason": "“共20班”实际是20个人班次而非20个班次，术语略有歧义；备选部分也不便直接执行。备选的实质不可行主要已在韧性维度扣分，未重复重罚。"
+        }
+      ],
+      "subtotal": 8.7,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.7,
+      "top_issues": [
+        "D缺勤备选建议用A顶周三PM，但A在该时段明确不可用，因此方案不可行。",
+        "备选只讨论D的周三PM，未覆盖D原排的周四PM和周五PM。",
+        "“共20班”把20个人班次称为20个班次，容易与实际10个班次混淆。"
+      ],
+      "strengths": [
+        "主方案10班均为2人、均有Bilingual，Tue/Thu PM有Senior且无超限或不可用安排。",
+        "5/4/4/3/4分配均衡，无同日双班，周五PM疲劳偏好满足。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "主方案和备选方案均可依据文内技能、可用性及上限逐项复算。"
+    },
+    {
+      "task_id": "T39",
+      "domain": "运营、项目与采购",
+      "submission_status": "COMPLETE",
+      "required_files": "供应商评分表、采购建议和谈判要点，中文输出",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "评分计算",
+          "max_points": 3.0,
+          "score": 1.0,
+          "evidence": "答案先淘汰Y，再把“合格供应商最低报价”X的1.00M作为成本基准，算得X成本100、Z成本83.33和总分85.50/87.25。",
+          "deduction_reason": "Gold要求成本基准包含最低报价Y：X=85、Y=100、Z=70.833，总分应为X=81.00、Y=85.25、Z=83.50。答案成本基准错误并遗漏Y原始加权总分，导致X/Z总分均错；按成本公式错本维度最多1.0限分，同一根因未再按每个错分重复扣罚。"
+        },
+        {
+          "dimension": "硬门槛应用",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "明确Security低于80不可豁免，Y因70被淘汰；仅在合格的X/Z中推荐Z。",
+          "deduction_reason": "无扣分；门槛应用和最终推荐与Gold checks一致，不触发CAP。"
+        },
+        {
+          "dimension": "决策与取舍",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "推荐Z并说明其1.20M报价比X的1.00M高0.20M但仍低于1.25M预算；表内显示Z在Quality、Delivery、Sustainability高于X。",
+          "deduction_reason": "因计算错误，把Z相对X优势写成1.75分，正确应为2.50分；正文没有完整串联质量、交付和可持续性优势来解释为何值得多付0.20M。"
+        },
+        {
+          "dimension": "谈判与验证",
+          "max_points": 1.5,
+          "score": 1.2,
+          "evidence": "谈判点覆盖降价、交付时间表和里程碑、Security 90合同保证及可持续条款。",
+          "deduction_reason": "缺少质量验收标准、缺陷/不合格处理或验收证据要求。"
+        },
+        {
+          "dimension": "格式与可复核性",
+          "max_points": 1.5,
+          "score": 1.0,
+          "evidence": "答案分硬门槛、成本公式、加权计算、排名、建议和谈判六部分，X/Z各因素算式可追溯，淘汰状态清楚。",
+          "deduction_reason": "没有展示Y的各分项加权及淘汰前总分85.25，三家评分表不完整；计算数值错误已在评分计算维度处理，此处仅扣可复核性缺口。"
+        }
+      ],
+      "subtotal": 6.6,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 6.6,
+      "top_issues": [
+        "错误地先排除Y再确定最低报价，导致成本分应为85/100/70.833却写成X=100、Z=83.33。",
+        "X/Z总分应为81.00/83.50，却写成85.50/87.25，并遗漏Y淘汰前85.25的原始总分。",
+        "谈判要点没有质量验收标准或不合格处理机制。"
+      ],
+      "strengths": [
+        "正确执行Security 80硬门槛，淘汰Y并在X/Z中推荐Z。",
+        "识别Z比X贵0.20M但仍在1.25M预算内，并提出价格、交付和安全谈判点。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "Gold提供精确成本分、总分和门槛结果，计算错误与正确推荐可明确分离。"
+    },
+    {
+      "task_id": "T40",
+      "domain": "运营、项目与采购",
+      "submission_status": "COMPLETE",
+      "required_files": "A3式中文问题分析，包含缺陷率、Pareto/分层、假设、5 Whys和验证计划",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "数据计算",
+          "max_points": 2.5,
+          "score": 2.0,
+          "evidence": "八个cell均按Defects/Samples计算率；M2/Night/L2=72/360=20.00%，M2/Day/L2=20/405=4.94%，其余为2.00%–4.62%，与Gold分层值一致。",
+          "deduction_reason": "未汇总164个缺陷、3135个样本及总体缺陷率5.231%，缺少满分标准中的核心总率。"
+        },
+        {
+          "dimension": "分层与问题定义",
+          "max_points": 2.0,
+          "score": 1.9,
+          "evidence": "明确把异常定义为M2+Night+L2交互组合，分别比较同Lot跨班次和同机器/班次跨Lot的缺陷率，并反复声明关联不等于因果。",
+          "deduction_reason": "虽有完整分层和重点排序，但没有给出缺陷贡献占比或正式Pareto累计结果。"
+        },
+        {
+          "dimension": "根因假设与5 Whys",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "分别提出湿度×L2粘连、M2送料轮、夜班工艺偏差三类假设；明确传感器离线和送料轮未测是已知事实，其余为假设，并说明夜班违规无证据、尚无确证根因。",
+          "deduction_reason": "无扣分；证据与假设区分清楚，5 Whys覆盖湿度、传感器、材料及送料轮路径，未归责员工。"
+        },
+        {
+          "dimension": "验证与措施",
+          "max_points": 2.0,
+          "score": 1.7,
+          "evidence": "立即暂停/加严M2夜班L2检验并修复校准传感器；一周内测送料轮磨损、收集小时级湿度/缺陷率、进行L2受潮粘连实验，永久措施明确以验证结果为条件。",
+          "deduction_reason": "没有设计机器、班次、Lot互换或因子交叉试验及判定阈值，尚不足以区分交互因素和单因子效应。"
+        },
+        {
+          "dimension": "A3格式与清晰度",
+          "max_points": 1.5,
+          "score": 1.0,
+          "evidence": "文档按现状数据、分层观察、假设、5 Whys、遏制、验证和永久措施组织，并给验证阶段“一周内”的时点。",
+          "deduction_reason": "缺少明确改善目标/目标缺陷率，各措施没有责任人，除验证阶段外也无逐项完成时点，闭环管理字段不完整。"
+        }
+      ],
+      "subtotal": 8.6,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.6,
+      "top_issues": [
+        "没有计算总缺陷164、总样本3135及总体缺陷率5.231%。",
+        "验证计划缺少Machine、Shift、Lot交叉/互换试验和预先定义的判定阈值。",
+        "A3未设目标缺陷率，措施也缺少责任人和逐项完成时点。"
+      ],
+      "strengths": [
+        "准确识别M2/Night/L2为20%热点及M2/Day/L2为4.94%第二高，并聚焦三因素交互。",
+        "严格区分事实、操作员陈述和待验证假设，未把夜班人员违规写成根因。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "所有分层数据可直接复算，根因表述与CAP条件也清晰可核验。"
+    }
+  ]
+}

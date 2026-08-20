@@ -1,0 +1,314 @@
+{
+  "tasks": [
+    {
+      "task_id": "T11",
+      "domain": "电子表格与数据处理",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX，包含Raw、Clean、Summary、Exceptions四个工作表。",
+      "actual_files": "T11_销售数据清洗与汇总.xlsx；_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "数据清洗准确性",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "XLSX可由openpyxl以data_only=False/True打开；Raw有15条数据行，Clean有14条且仅删除重复的1007。Clean!B2:B15统一为YYYY-MM-DD文本，C列统一North/South/East/West并将1009设为Unknown，D列把A. Chen、A Chen统一为Alex Chen且Nina K.统一为Nina Ko。",
+          "deduction_reason": "无。"
+        },
+        {
+          "dimension": "计算准确性",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "Clean!I2:I15逐行数值正确：Cancelled的I5=0、Pending的I12=0、Refund的I6=-240及I15=-360。Summary!C2:C7为3400、1960、1060、1360、1400、9180，B7=14，全部匹配Gold checks。",
+          "deduction_reason": "无数值扣分；硬编码问题计入可追踪性维度。"
+        },
+        {
+          "dimension": "工作簿结构与可追踪性",
+          "max_points": 1.5,
+          "score": 0.7,
+          "evidence": "Raw、Clean、Summary、Exceptions四表齐全且Raw未覆盖，Clean含Net_Revenue列；但data_only=False下全工作簿无任何公式，OOXML工作表也无<f>节点，Clean!I2:I15和Summary!B2:C7均为硬编码常量。",
+          "deduction_reason": "汇总及净收入无法从Raw经公式或透视追踪，按“结果手工写死最多0.7”计0.7。"
+        },
+        {
+          "dimension": "异常处理",
+          "max_points": 1.0,
+          "score": 0.6,
+          "evidence": "Exceptions明确记录1007重复、1009缺Region及1005/1014退款，也记录三种日期格式的标准化；但未列出Cancelled订单1004或Pending订单1011，二者仅在Clean中保留状态及0净收入。",
+          "deduction_reason": "Cancelled和Pending未集中呈现或说明处理，异常清单不完整。"
+        },
+        {
+          "dimension": "格式与可用性",
+          "max_points": 2.0,
+          "score": 1.1,
+          "evidence": "各表有清晰深色表头和适当列宽；Summary嵌入640×360的静态PNG柱状图“Net Revenue by Region”，五个柱值与汇总一致。四表均无筛选、冻结窗格或条件格式，Clean日期为文本且金额列使用General格式；图表不是可编辑的原生Excel图表。",
+          "deduction_reason": "缺少筛选、冻结、日期/金额数字格式；图表虽清楚但为静态图片、不可联动。"
+        }
+      ],
+      "subtotal": 7.9,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 7.9,
+      "top_issues": [
+        "Clean!I2:I15与Summary!B2:C7全部硬编码，工作簿无公式或透视，无法追踪到Raw。",
+        "Exceptions漏列Cancelled订单1004和Pending订单1011。",
+        "四表均无筛选/冻结，日期与金额无合适数字格式，区域图是静态PNG而非可编辑图表。"
+      ],
+      "strengths": [
+        "仅删除一条1007重复记录，14条唯一订单及日期、区域、姓名标准化均正确。",
+        "净收入处理和五区域汇总完全匹配Gold checks，总计9180。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "文件可打开，行级数据、汇总值及OOXML公式状态均已直接核验，无评分冲突。"
+    },
+    {
+      "task_id": "T12",
+      "domain": "电子表格与数据处理",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX，含明细、部门汇总、管理图表和三条文字结论。",
+      "actual_files": "T12_部门预算差异分析.xlsx；_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "计算准确性",
+          "max_points": 3.0,
+          "score": 2.2,
+          "evidence": "部门汇总!B2:D5分别为Marketing 330/353/23、R&D 630/670/40、G&A 245/240/-5、Sales 480/505/25，均匹配Gold；明细月度差异也正确。但工作簿没有总计行，未呈现总预算1685、实际1768、差异+83及总差异率4.9258%。",
+          "deduction_reason": "缺少全部总体关键值，按总额缺失扣0.8。"
+        },
+        {
+          "dimension": "阈值和分类",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "部门汇总!E2:E5正确标为Unfavorable、Unfavorable、Favorable、Unfavorable；G2:G5为RED、RED、GREEN、RED并以红/绿直接填色。Marketing、R&D、Sales均满足>20或>5%规则，G&A=-5为有利。",
+          "deduction_reason": "无分类扣分；动态条件格式问题计入公式与结构维度。"
+        },
+        {
+          "dimension": "分析洞察",
+          "max_points": 1.5,
+          "score": 0.7,
+          "evidence": "结论!B2指出R&D绝对差异最大并关注Feb/Mar；B3报告Marketing与Sales红标，B4报告G&A有利。但未指出Marketing三月+30是其主要驱动，也未说明总体+83虽仅4.93%仍具有显著绝对影响。",
+          "deduction_reason": "只覆盖三项要求中的R&D最大项，缺少Marketing三月驱动和总体差异率解读。"
+        },
+        {
+          "dimension": "公式与工作簿结构",
+          "max_points": 2.0,
+          "score": 0.5,
+          "evidence": "明细、部门汇总、管理图表、结论四表齐全；但data_only=False及OOXML检查均显示零公式，所有月差异、季度汇总、比例、Fav/Unfav和Flag均为常量。工作簿无条件格式规则，红绿仅是G2:G5的静态单元格样式。",
+          "deduction_reason": "汇总手工写死且无条件格式或可追踪关系，低于手工汇总0.8上限。"
+        },
+        {
+          "dimension": "图表与文件可用性",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "管理图表表嵌入640×360静态PNG柱状图“Q Variance by Department (Actual - Budget)”，显示23、40、-5、25；A24注明正负含义及千美元阈值，XLSX其余单元格可编辑。图中G&A标签与-5值拥挤，图表不是原生可编辑对象且无数据联动。",
+          "deduction_reason": "比较方式合适且单位说明存在，但图表为静态图片、局部标签拥挤，不能随数据更新。"
+        }
+      ],
+      "subtotal": 6.3,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 6.3,
+      "top_issues": [
+        "缺少总计行，未给出1685/1768/+83及4.9258%总体差异率。",
+        "全工作簿无公式或条件格式；季度汇总、分类和红绿标记均为硬编码。",
+        "三条结论未识别Marketing三月+30驱动，也未解读总体4.93%与绝对+83；管理图为静态PNG。"
+      ],
+      "strengths": [
+        "四个部门的预算、实际、差异、方向及阈值分类全部匹配Gold checks。",
+        "四张功能表及三条结论齐全，管理图的部门差异方向和数值正确。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "可直接核验全部部门值、结论、静态图和公式缺失状态，未触发费用方向CAP。"
+    },
+    {
+      "task_id": "T13",
+      "domain": "电子表格与数据处理",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX，含cohort热力图、加权留存曲线和不超过250字的结论。",
+      "actual_files": "T13_订阅用户Cohort留存分析.xlsx；_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "留存计算准确性",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "Cohort_留存率!B2:E5所有可观测值与人数/Signups一致；未成熟的E3、D4:E4、C5:E5显示为空字符串而非0。加权留存曲线!B2:B4为0.705、0.587、0.523，分别按一位百分比显示70.5%、58.7%、52.3%，匹配Gold；B5=50.0%为仅成熟Jan的M4。",
+          "deduction_reason": "无数值扣分；精确分子分母不可追踪的问题计入口径维度。"
+        },
+        {
+          "dimension": "口径与可追踪性",
+          "max_points": 1.5,
+          "score": 0.4,
+          "evidence": "人数、留存率和加权结果分表展示，但工作簿无任何公式或分母行，data_only=False与OOXML均无公式节点；加权留存曲线!B2:B5为硬编码常量。工作簿正文未说明M2/M3分母只含已成熟cohort。",
+          "deduction_reason": "结果数值符合加权口径，但分母变化未在主交付中明确且无法由公式追踪。"
+        },
+        {
+          "dimension": "分析深度",
+          "max_points": 2.0,
+          "score": 1.7,
+          "evidence": "结论!A2比较Jan-Feb-Apr的M1和Mar的M1，明确“无随机实验或用户级控制，无法归因”，并建议补充对照实验；没有把2月引导写成因果。文字同时提到3月折扣下调，但没有明确把折扣变化称为混杂因素。",
+          "deduction_reason": "因果克制和验证建议较好；未清楚解释引导与折扣同时变化造成的混杂机制。"
+        },
+        {
+          "dimension": "可视化",
+          "max_points": 1.5,
+          "score": 1.2,
+          "evidence": "Cohort_留存率使用深浅蓝直接填色形成热力图，成熟单元格为百分比且空白未填0；加权留存曲线表嵌入640×360静态PNG折线图，点值70.5、58.7、52.3、50且未绘制未成熟cohort为0。曲线纵轴刻度为0、20.3、40.5、60.8、81，没有百分号；热力图颜色不是条件格式，折线图不是原生Excel图表。",
+          "deduction_reason": "两种图形均可读且未把空白绘成0，但百分比轴标识不完整且可视化均非动态规则/原生图表。"
+        },
+        {
+          "dimension": "文件完成度",
+          "max_points": 2.0,
+          "score": 1.8,
+          "evidence": "XLSX可打开编辑，Cohort_热力图、Cohort_留存率、加权留存曲线、结论表名清楚，结论约150字且与数据显示一致。曲线作为嵌入PNG本身不可编辑或联动。",
+          "deduction_reason": "主要交付齐全；仅因曲线图不是可编辑数据图表小幅扣分。"
+        }
+      ],
+      "subtotal": 8.1,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.1,
+      "top_issues": [
+        "留存率和加权结果全部硬编码，工作簿无公式、无成熟cohort动态分母说明。",
+        "热力图为静态填色、留存曲线为静态PNG，曲线纵轴没有百分号。",
+        "结论虽避免因果断言，但未明确说明3月折扣变化是评估2月引导效果的混杂因素。"
+      ],
+      "strengths": [
+        "所有可观测留存值及加权M1/M2/M3完全匹配Gold，未成熟月份保持空白。",
+        "结论不把前后变化断言为因果，并提出随机实验或用户级控制验证。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "人数、比率、空白、结论、热力图样式和嵌入曲线均已直接核验，未触发填0 CAP。"
+    },
+    {
+      "task_id": "T14",
+      "domain": "电子表格与数据处理",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX，含补货计算、异常检查和采购清单。",
+      "actual_files": "T14_库存补货计算器.xlsx；_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "公式和触发逻辑",
+          "max_points": 2.5,
+          "score": 1.3,
+          "evidence": "补货计算!H2:H9的ROP为120、144、95、150、114、110、108、450，I2:I9按库存位置<=ROP正确标记A/C/F/G为Yes且A等于ROP也触发；J列目标库存正确。但全工作簿无公式，且L5=250、L6=50没有受I5:I6的No触发状态约束。",
+          "deduction_reason": "显示的ROP、目标库存和<=判断正确，但所有逻辑硬编码，最终取整量列未与触发条件联动。"
+        },
+        {
+          "dimension": "补货数量准确性",
+          "max_points": 3.0,
+          "score": 2.0,
+          "evidence": "采购清单!B2:B5及补货计算的触发行给出A=120、C=130、F=125、G=108，均正确向上取整到Case Pack；B/H为0。但补货计算!L5=250和L6=50使非触发D/E不为Gold要求的0，并与I5:I6=No及采购清单相冲突。",
+          "deduction_reason": "D、E两个SKU的主计算表最终下单量错误，各扣0.5。"
+        },
+        {
+          "dimension": "异常与控制",
+          "max_points": 1.0,
+          "score": 0.6,
+          "evidence": "异常检查列出F零现货高优先级、C显著低于ROP、A等于ROP时触发及非触发集合；但未单独标识E的21天和F的30天长交期，也没有单位、空值、非负数输入控制或数据验证。",
+          "deduction_reason": "有部分异常说明，但长交期和单位/空值控制缺失。"
+        },
+        {
+          "dimension": "采购清单可用性",
+          "max_points": 1.5,
+          "score": 0.6,
+          "evidence": "采购清单只列A/C/F/G，含正确建议量、Case Pack和箱数；但没有原因、库存位置或ROP列，且无筛选或表格对象。",
+          "deduction_reason": "缺少原因，按rubric最多0.8；再因缺库存位置、ROP及可排序筛选降至0.6。"
+        },
+        {
+          "dimension": "文件与格式",
+          "max_points": 2.0,
+          "score": 1.0,
+          "evidence": "三张要求工作表齐全，表头、列宽和触发项红色直接填色清楚，XLSX可编辑；但无公式、筛选、冻结窗格、条件格式规则或数据验证。",
+          "deduction_reason": "基础版式可用，但缺少题目要求的可复核公式及常用交互/控制格式。"
+        }
+      ],
+      "subtotal": 5.5,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 5.5,
+      "top_issues": [
+        "补货计算!L5:L6把非触发D/E列为250和50，而I5:I6为No、Gold要求为0，且与采购清单冲突。",
+        "全工作簿无公式、条件格式或输入验证，计算和触发标记全部硬编码。",
+        "采购清单缺原因、库存位置和ROP；异常检查也未覆盖长交期及单位/空值控制。"
+      ],
+      "strengths": [
+        "八个ROP及<=触发判断全部正确，A的等号边界处理正确。",
+        "采购清单仅含A/C/F/G，四个实际采购量及Case Pack箱数均正确，F零现货有高优先级提示。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "主计算表对D/E给出非零最终下单量，但采购清单排除二者，存在直接内部冲突，建议人工确认操作口径。"
+    },
+    {
+      "task_id": "T15",
+      "domain": "电子表格与数据处理",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX，含Base、Downside、Assumptions、Dashboard四张表。",
+      "actual_files": "T15_六个月现金流情景模型.xlsx；_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "Base模型准确性",
+          "max_points": 2.5,
+          "score": 1.8,
+          "evidence": "Base!I2:I7为1.866、2.500、2.270、2.472、2.510、2.984，H3:H7数值上等于上月期末，最低1.866，全部匹配Gold；各月净流G列也与收入减变动成本、固定成本、Capex加融资一致。但H、I、G列均为硬编码常量，无滚动公式。",
+          "deduction_reason": "数值及滚动序列正确，但不是可重算的滚动模型，扣0.7。"
+        },
+        {
+          "dimension": "Downside模型准确性",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "Downside!I2:I7为1.744、2.245、1.862、1.921、1.796、2.086，与Gold精确值按三位小数一致；最低1.744且J2:J7均为Yes。B列收入为Base的85%，C列按32%变化，D列固定费用始终0.75，未错误削减固定费用。",
+          "deduction_reason": "无数值或固定/变动成本口径扣分；可控性问题计入情景维度。"
+        },
+        {
+          "dimension": "情景与假设可控性",
+          "max_points": 1.5,
+          "score": 0.2,
+          "evidence": "Assumptions!B2=2和B5=0.8为数值，但B3是文本“32% of revenue”，B7是文本“收入下降15%...”而非可调百分比；全工作簿无公式或对Assumptions的引用，Base、Downside和Dashboard核心结果全部写死。",
+          "deduction_reason": "核心结果写死且核心情景参数不可调，低于rubric的0.6上限。"
+        },
+        {
+          "dimension": "Dashboard与决策解释",
+          "max_points": 1.5,
+          "score": 0.7,
+          "evidence": "Dashboard!A1:E3并列Base和Downside，列出M6期末2.984/2.086、最低现金1.866/1.744及均高于0.8，并给出“现金流健康/仍高于下限”的判断。未计算阈值余量1.066/0.944，没有图表，也未说明回款延迟等模型外风险。",
+          "deduction_reason": "有基本比较和判断，但缺阈值余量、可视化及关键未建模风险。"
+        },
+        {
+          "dimension": "文件与格式",
+          "max_points": 2.0,
+          "score": 1.0,
+          "evidence": "Assumptions、Base、Downside、Dashboard四表齐全且XLSX可编辑，表头和列宽清楚；但无图表，金额单元格均为General而未统一三位小数，工作簿正文未标明金额单位，且无筛选、冻结或条件格式。",
+          "deduction_reason": "结构齐全，但图表、单位、统一金额格式和可用性格式不足。"
+        }
+      ],
+      "subtotal": 6.2,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 6.2,
+      "top_issues": [
+        "全工作簿零公式；32%和15%为文本，Base/Downside/Dashboard均不引用Assumptions，模型无法情景重算。",
+        "Dashboard没有阈值余量、图表或回款延迟等模型外风险说明。",
+        "金额均用General格式且正文未标明单位，未实现声明的统一三位小数展示。"
+      ],
+      "strengths": [
+        "Base六个月期末现金和最低值完全匹配Gold，数值序列体现正确滚动。",
+        "Downside按收入下降15%并仅同步降低变动成本，固定费用保持0.75，六个月值及不触发0.8阈值均正确。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "这是现金流决策模型，但核心结果全部硬编码且参数不可控；虽数值正确，建议人工复核其模型可用性风险。"
+    }
+  ]
+}

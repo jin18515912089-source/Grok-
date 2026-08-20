@@ -1,0 +1,919 @@
+{
+  "files_checked": 69,
+  "valid_files": 69,
+  "invalid_files": 0,
+  "records": [
+    {
+      "path": "submission_bundle/T01/answer.md",
+      "size_bytes": 3187,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1377,
+      "line_count": 38
+    },
+    {
+      "path": "submission_bundle/T02/answer.md",
+      "size_bytes": 2751,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1376,
+      "line_count": 51
+    },
+    {
+      "path": "submission_bundle/T03/answer.md",
+      "size_bytes": 2738,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1310,
+      "line_count": 37
+    },
+    {
+      "path": "submission_bundle/T04/answer.md",
+      "size_bytes": 2352,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1130,
+      "line_count": 37
+    },
+    {
+      "path": "submission_bundle/T05/answer.md",
+      "size_bytes": 2785,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1205,
+      "line_count": 58
+    },
+    {
+      "path": "submission_bundle/T06/T06_区域销售经营汇报.pptx",
+      "size_bytes": 178256,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 62,
+      "type": "pptx",
+      "slide_count": 6,
+      "chart_count": 1,
+      "table_count": 2,
+      "slide_text": [
+        {
+          "slide": 1,
+          "text": "区域销售经营汇报 · Q2 业务回顾 | 结论：Q2 总收入 31.0 百万元（环比 +10.7%），增长主要来自北美渠道伙伴；但毛利率 52.4%，处于 52% 底线附近，亚太与 Legacy 为质量拖累。下季度须在保增长 8% 的同时守住 52% 毛利。"
+        },
+        {
+          "slide": 2,
+          "text": "区域趋势：增长来自哪里 | 单位：百万元人民币 | 北美 +2.4 由两个渠道伙伴驱动；拉美低基数 +0.8；亚太在日本渠道更换期间流失 1.1。"
+        },
+        {
+          "slide": 3,
+          "text": "产品组合与毛利 | Q2 收入与毛利率 | 整体毛利率 52.4%（测算），略高于 52% 底线；Legacy 毛利 25% 且计划停售，是毛利拖累。"
+        },
+        {
+          "slide": 4,
+          "text": "问题诊断 | 1. 增长质量：北美增长依赖两个渠道伙伴，集中度高；拉美为低基数增长，可持续性未知。 | 2. 区域风险： | 亚太因日本渠道更换流失 1.1 百万元（-10%），需评估渠道切换完成时间。 | 3. 毛利压力： | Legacy 毛利仅 25%，且计划未来两季度停售，短期仍拖累整体毛利。 | 4. 达标压力： | 下季度需总收入环比 ≥8%（33.5 百万元）且毛利率 ≥52%，当前结构下需依靠 Core/Growth 增量并控制 Legacy。"
+        },
+        {
+          "slide": 5,
+          "text": "行动计划：下季度优先级 | P1 放大北美渠道：巩固两大渠道伙伴，目标贡献下季度主要增量。 | P2 止损亚太： | 加速日本新渠道爬坡，挽回 1.1 百万元流失。 | P3 优化产品结构： | 推动 Core/Growth 增长，按计划停售 Legacy 并管理过渡。 | P4 守住毛利： | 监控产品组合，确保整体毛利率 ≥52%。"
+        },
+        {
+          "slide": 6,
+          "text": "附录：数据与方法 | · 数据源：I06-A 区域收入、I06-B 产品组合、I06-C 经营背景。 | · 毛利率为加权测算（各产品收入×毛利率/总收入）。 | · 达标校验：下季度目标收入 = 31.0 × 1.08 = 33.5 百万元；毛利率底线 52%。 | · 图表说明：柱状图与表格坐标从合理起点开始，未截断或误导。"
+        }
+      ]
+    },
+    {
+      "path": "submission_bundle/T06/_submission_note.md",
+      "size_bytes": 1080,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 510,
+      "line_count": 20
+    },
+    {
+      "path": "submission_bundle/T07/T07_增长战略选项董事会.pptx",
+      "size_bytes": 177263,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 63,
+      "type": "pptx",
+      "slide_count": 7,
+      "chart_count": 0,
+      "table_count": 3,
+      "slide_text": [
+        {
+          "slide": 1,
+          "text": "增长战略选项 · 董事会演示 | 决策请求：选定一个主增长方案，并决定是否保留备选/验证性试点。"
+        },
+        {
+          "slide": 2,
+          "text": "三个方案概述"
+        },
+        {
+          "slide": 3,
+          "text": "定量比较 | 概率调整收入仅为比较工具，不等于期望利润 | 风险调整收入 = 第3年收入 × 成功概率（测算）：Alpha 14.3、Beta 14.4、Gamma 14.3。"
+        },
+        {
+          "slide": 4,
+          "text": "风险与执行"
+        },
+        {
+          "slide": 5,
+          "text": "董事会约束校验 | · 18 个月最多投入 8 百万：Alpha 5 ✓；Beta 3 ✓；Gamma 12 ✗（超限，须另行融资）。 | · 24 个月内盈亏平衡： | Beta 第18月 ✓；Gamma 即期 ✓；Alpha 第30月 ✗。 | · 团队无跨境消费者运营经验： | Alpha（德国 D2C）执行风险相对高；Beta 复用现有渠道高。"
+        },
+        {
+          "slide": 6,
+          "text": "主推荐与备选 | 主推荐：Beta（美国 B2B） | 理由：风险调整收入最高（14.4）、成功概率最高（80%）、投资最低（3）、18 个月内盈亏平衡、监管与执行风险低、渠道复用高。 | 备选/试点： | 可保留不超过 0.8 百万的验证性试点用于 Gamma（或 Alpha）的小规模验证，但 Gamma 主方案须另行融资、执行风险高，不作为主推荐。"
+        },
+        {
+          "slide": 7,
+          "text": "实施路线图（Beta） | 阶段一（0–3月）：成立美国 B2B 团队，锁定首批渠道/客户。 | 阶段二（3–12月）：产品适配、试点客户、验证定价。 | 阶段三（12–18月）：规模扩展，目标第 18 月盈亏平衡。 | 决策请求：批准 Beta 为主方案；授权 ≤0.8 百万验证性试点。"
+        }
+      ]
+    },
+    {
+      "path": "submission_bundle/T07/_submission_note.md",
+      "size_bytes": 606,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 289,
+      "line_count": 16
+    },
+    {
+      "path": "submission_bundle/T08/T08_季度业绩投资者更新.pptx",
+      "size_bytes": 113822,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 55,
+      "type": "pptx",
+      "slide_count": 5,
+      "chart_count": 0,
+      "table_count": 1,
+      "slide_text": [
+        {
+          "slide": 1,
+          "text": "Lumina Memory · Q4 业绩更新 | 核心结论：表面超预期（收入/利润均超一致预期），但股价下跌 7%——因盈利质量（一次性处置收益 2.2 十亿）与指引质量（出货量 +4% 远低于 +8%~+10% 指引）双弱。评级：持有。"
+        },
+        {
+          "slide": 2,
+          "text": "业绩质量：归一化 vs GAAP | 单位：十亿美元 | 归一化净利润 = GAAP 5.6 − 处置收益 2.2 = 3.4（测算），略低于一致预期 3.5。"
+        },
+        {
+          "slide": 3,
+          "text": "指引与运营质量 | · 出货量同比 +4%，公司此前指引 +8%~+10% —— 显著miss。 | · 平均售价同比 +10% | ，市场预期约 +7% —— 部分对冲。 | · 下季度收入指引 13.2 十亿（±0.3），一致预期 12.8；毛利率指引 58%±1pp。 | · 管理层称出货偏弱来自客户验收延后，尚无独立验证。"
+        },
+        {
+          "slide": 4,
+          "text": "估值与评级 | 目标价（测算）：EV = CY2027 营业利润 22 × 8.0 = 176；加净现金 6 = 182；÷1.0 十亿股 = 182 美元。 | 当前股价 178 美元；目标回报（测算）= (182−178)/178 = +2.2%。 | 评级规则：>+15% 买入；−10%~+15% 持有；<−10% 卖出。 | 评级：持有（Hold）。"
+        },
+        {
+          "slide": 5,
+          "text": "风险与关注点 | · 出货量持续偏弱（需求 or 验收延后，需验证）。 | · 客户验收延后解释未经独立验证。 | · 一次性收益不可持续，归一化盈利承压。 | · 关注下季度指引兑现与毛利率 58%±1pp 的落地。"
+        }
+      ]
+    },
+    {
+      "path": "submission_bundle/T08/_submission_note.md",
+      "size_bytes": 579,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 303,
+      "line_count": 17
+    },
+    {
+      "path": "submission_bundle/T09/T09_反钓鱼培训课件.pptx",
+      "size_bytes": 101990,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 67,
+      "type": "pptx",
+      "slide_count": 8,
+      "chart_count": 0,
+      "table_count": 0,
+      "slide_text": [
+        {
+          "slide": 1,
+          "text": "反钓鱼培训 · 15 分钟速成 | 目标：收到可疑邮件时，能立即采取正确行动。"
+        },
+        {
+          "slide": 2,
+          "text": "识别可疑邮件 | 危险信号：伪造发件人域名、紧急威胁语气、陌生短链、索取密码/验证码、异常付款请求。 | 记住：IT 永远不会通过邮件索取密码或 MFA 验证码。"
+        },
+        {
+          "slide": 3,
+          "text": "正确处理流程 | 1. 不要点击链接、不要打开附件、不要回复。 | 2. 使用邮件客户端的“报告钓鱼”按钮。 | 3. 若已输入密码：立即致电 IT 服务台 7000 并重置密码。 | 4. 若涉及付款请求：同时电话回拨已知号码向请求人核实。"
+        },
+        {
+          "slide": 4,
+          "text": "案例：看起来像真的，但仍危险 | 示例 1：发件人 it-support@novacIoud.com（字母 I 冒充 l），主题“邮箱将在30分钟内停用”，链接文字是公司域名但悬停显示陌生短链。→ 危险：伪造域名 + 紧急威胁 + 陌生短链。 | 示例 2： | “长期合作供应商”从正常邮箱发来新银行账户通知并要求今天付款，语气正常、附 PDF。→ 危险：付款账户变更必须电话回拨已知号码核实。"
+        },
+        {
+          "slide": 5,
+          "text": "对比：正常 vs 危险 | 示例 3（正常）：HR 系统通知查看工资单，域名、链接和登录页均与书签一致，未索取验证码。→ 正常，可正常使用。 | 示例 4（危险）： | “CEO”出差中要求购买礼品卡并把卡号回复邮件，强调保密。→ 危险：紧急 + 保密 + 索要卡号，先电话核实。"
+        },
+        {
+          "slide": 6,
+          "text": "互动题 1 | 你收到一封邮件：“您的邮箱将在 30 分钟内停用，点击此处登录以避免停用”。链接悬停显示陌生短链。你应该怎么做？ | A. 立即点击链接登录 | B. 转发给同事请他们帮忙看 | C. 不点击、不回复，使用“报告钓鱼”按钮 | D. 回复邮件询问详情"
+        },
+        {
+          "slide": 7,
+          "text": "互动题 2 | 你刚在一封可疑邮件里输入了登录密码，最正确的做法是？ | A. 假装没发生 | B. 立即致电 IT 服务台 7000 并重置密码 | C. 只告诉同桌同事 | D. 等下次登录再说"
+        },
+        {
+          "slide": 8,
+          "text": "答案页 | 互动题 1 答案：C。不点击、不回复，使用“报告钓鱼”按钮。 | 互动题 2 答案：B。 | 已输入密码应立即致电 IT 服务台 7000 并重置密码。"
+        }
+      ]
+    },
+    {
+      "path": "submission_bundle/T09/_submission_note.md",
+      "size_bytes": 524,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 230,
+      "line_count": 15
+    },
+    {
+      "path": "submission_bundle/T10/T10_新产品销售赋能.pptx",
+      "size_bytes": 140701,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 63,
+      "type": "pptx",
+      "slide_count": 7,
+      "chart_count": 0,
+      "table_count": 3,
+      "slide_text": [
+        {
+          "slide": 1,
+          "text": "FocusFlow Enterprise 上市赋能 | 帮助销售识别客户、讲清价值、处理异议并准确报价。"
+        },
+        {
+          "slide": 2,
+          "text": "目标客户与买方 | 目标客户：500 人以上的专业服务与软件企业。 | 主要买方：COO、IT、部门负责人。 | 核心痛点：跨团队任务不可见、会议后行动丢失、管理者无法判断项目阻塞。"
+        },
+        {
+          "slide": 3,
+          "text": "价值主张 | 注意：尚未取得 HIPAA 认证，不作医疗合规承诺。"
+        },
+        {
+          "slide": 4,
+          "text": "定价与折扣审批 | 折扣：≤8% 销售自批；8%–15% 需销售副总裁批准；>15% 不允许。"
+        },
+        {
+          "slide": 5,
+          "text": "试用条款 | 30 天试用：最多 100 席，不含生产数据迁移。"
+        },
+        {
+          "slide": 6,
+          "text": "异议处理"
+        },
+        {
+          "slide": 7,
+          "text": "发现问题清单 | · 决策人与部门？识别 COO/IT/部门负责人。 | · 席数与版本？ | 500+/800+ 确定版本。 | · 数据驻留要求？ | 新加坡/法兰克福。 | · 合规要求？ | SSO、审计日志；无 HIPAA。 | · 时间线与预算？ | 试用→采购路径。"
+        }
+      ]
+    },
+    {
+      "path": "submission_bundle/T10/_submission_note.md",
+      "size_bytes": 571,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 241,
+      "line_count": 15
+    },
+    {
+      "path": "submission_bundle/T11/T11_销售数据清洗与汇总.xlsx",
+      "size_bytes": 22445,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 27,
+      "type": "xlsx",
+      "sheets": [
+        "Raw",
+        "Clean",
+        "Summary",
+        "Exceptions"
+      ],
+      "sheet_count": 4,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 4
+    },
+    {
+      "path": "submission_bundle/T11/_submission_note.md",
+      "size_bytes": 725,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 457,
+      "line_count": 16
+    },
+    {
+      "path": "submission_bundle/T12/T12_部门预算差异分析.xlsx",
+      "size_bytes": 21477,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 27,
+      "type": "xlsx",
+      "sheets": [
+        "明细",
+        "部门汇总",
+        "管理图表",
+        "结论"
+      ],
+      "sheet_count": 4,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 4
+    },
+    {
+      "path": "submission_bundle/T12/_submission_note.md",
+      "size_bytes": 637,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 331,
+      "line_count": 16
+    },
+    {
+      "path": "submission_bundle/T13/T13_订阅用户Cohort留存分析.xlsx",
+      "size_bytes": 20274,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 27,
+      "type": "xlsx",
+      "sheets": [
+        "Cohort_热力图",
+        "Cohort_留存率",
+        "加权留存曲线",
+        "结论"
+      ],
+      "sheet_count": 4,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 4
+    },
+    {
+      "path": "submission_bundle/T13/_submission_note.md",
+      "size_bytes": 671,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 315,
+      "line_count": 16
+    },
+    {
+      "path": "submission_bundle/T14/T14_库存补货计算器.xlsx",
+      "size_bytes": 9094,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 18,
+      "type": "xlsx",
+      "sheets": [
+        "补货计算",
+        "异常检查",
+        "采购清单"
+      ],
+      "sheet_count": 3,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 3
+    },
+    {
+      "path": "submission_bundle/T14/_submission_note.md",
+      "size_bytes": 717,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 445,
+      "line_count": 18
+    },
+    {
+      "path": "submission_bundle/T15/T15_六个月现金流情景模型.xlsx",
+      "size_bytes": 9963,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 19,
+      "type": "xlsx",
+      "sheets": [
+        "Assumptions",
+        "Base",
+        "Downside",
+        "Dashboard"
+      ],
+      "sheet_count": 4,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 4
+    },
+    {
+      "path": "submission_bundle/T15/_submission_note.md",
+      "size_bytes": 654,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 369,
+      "line_count": 16
+    },
+    {
+      "path": "submission_bundle/T16/answer.md",
+      "size_bytes": 3192,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1330,
+      "line_count": 39
+    },
+    {
+      "path": "submission_bundle/T17/answer.md",
+      "size_bytes": 1902,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 844,
+      "line_count": 31
+    },
+    {
+      "path": "submission_bundle/T18/answer.md",
+      "size_bytes": 3535,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1483,
+      "line_count": 40
+    },
+    {
+      "path": "submission_bundle/T19/answer.md",
+      "size_bytes": 3035,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1505,
+      "line_count": 38
+    },
+    {
+      "path": "submission_bundle/T20/answer.md",
+      "size_bytes": 2767,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1483,
+      "line_count": 42
+    },
+    {
+      "path": "submission_bundle/T21/answer.md",
+      "size_bytes": 5100,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 3686,
+      "line_count": 36
+    },
+    {
+      "path": "submission_bundle/T22/answer.md",
+      "size_bytes": 7730,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 7708,
+      "line_count": 147
+    },
+    {
+      "path": "submission_bundle/T23/answer.md",
+      "size_bytes": 2033,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 835,
+      "line_count": 40
+    },
+    {
+      "path": "submission_bundle/T24/answer.md",
+      "size_bytes": 3295,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1243,
+      "line_count": 58
+    },
+    {
+      "path": "submission_bundle/T25/answer.md",
+      "size_bytes": 2863,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1429,
+      "line_count": 20
+    },
+    {
+      "path": "submission_bundle/T26/answer.md",
+      "size_bytes": 2692,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1332,
+      "line_count": 52
+    },
+    {
+      "path": "submission_bundle/T27/answer.md",
+      "size_bytes": 2521,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1427,
+      "line_count": 52
+    },
+    {
+      "path": "submission_bundle/T28/answer.md",
+      "size_bytes": 2978,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1502,
+      "line_count": 49
+    },
+    {
+      "path": "submission_bundle/T29/answer.md",
+      "size_bytes": 3430,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1398,
+      "line_count": 42
+    },
+    {
+      "path": "submission_bundle/T30/answer.md",
+      "size_bytes": 2674,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1352,
+      "line_count": 50
+    },
+    {
+      "path": "submission_bundle/T31/answer.md",
+      "size_bytes": 2952,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1728,
+      "line_count": 61
+    },
+    {
+      "path": "submission_bundle/T32/answer.md",
+      "size_bytes": 2501,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1294,
+      "line_count": 43
+    },
+    {
+      "path": "submission_bundle/T33/answer.md",
+      "size_bytes": 2060,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1338,
+      "line_count": 48
+    },
+    {
+      "path": "submission_bundle/T34/T34_IFRS16租赁摊销表.xlsx",
+      "size_bytes": 9653,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 18,
+      "type": "xlsx",
+      "sheets": [
+        "Assumptions",
+        "Schedule",
+        "Annual Summary"
+      ],
+      "sheet_count": 3,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 3
+    },
+    {
+      "path": "submission_bundle/T34/_submission_note.md",
+      "size_bytes": 739,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 403,
+      "line_count": 18
+    },
+    {
+      "path": "submission_bundle/T35/T35_采购三年TCO_NPV.xlsx",
+      "size_bytes": 8768,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 18,
+      "type": "xlsx",
+      "sheets": [
+        "TCO_NPV",
+        "NPV",
+        "结论"
+      ],
+      "sheet_count": 3,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 3
+    },
+    {
+      "path": "submission_bundle/T35/_submission_note.md",
+      "size_bytes": 550,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 290,
+      "line_count": 17
+    },
+    {
+      "path": "submission_bundle/T35/answer.md",
+      "size_bytes": 1146,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 570,
+      "line_count": 21
+    },
+    {
+      "path": "submission_bundle/T36/T36_跨职能上线计划.xlsx",
+      "size_bytes": 10137,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 19,
+      "type": "xlsx",
+      "sheets": [
+        "Schedule",
+        "Gantt",
+        "RACI",
+        "Risks"
+      ],
+      "sheet_count": 4,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 4
+    },
+    {
+      "path": "submission_bundle/T36/_submission_note.md",
+      "size_bytes": 668,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 356,
+      "line_count": 17
+    },
+    {
+      "path": "submission_bundle/T37/answer.md",
+      "size_bytes": 2580,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1212,
+      "line_count": 54
+    },
+    {
+      "path": "submission_bundle/T38/answer.md",
+      "size_bytes": 2061,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1345,
+      "line_count": 63
+    },
+    {
+      "path": "submission_bundle/T39/answer.md",
+      "size_bytes": 1895,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1210,
+      "line_count": 56
+    },
+    {
+      "path": "submission_bundle/T40/answer.md",
+      "size_bytes": 3164,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1639,
+      "line_count": 55
+    },
+    {
+      "path": "submission_bundle/T41/answer.md",
+      "size_bytes": 2450,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1052,
+      "line_count": 45
+    },
+    {
+      "path": "submission_bundle/T42/answer.md",
+      "size_bytes": 2160,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1059,
+      "line_count": 35
+    },
+    {
+      "path": "submission_bundle/T43/answer.md",
+      "size_bytes": 2319,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 979,
+      "line_count": 30
+    },
+    {
+      "path": "submission_bundle/T44/answer.md",
+      "size_bytes": 2532,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1108,
+      "line_count": 55
+    },
+    {
+      "path": "submission_bundle/T45/answer.md",
+      "size_bytes": 2404,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1154,
+      "line_count": 36
+    },
+    {
+      "path": "submission_bundle/T46/answer.md",
+      "size_bytes": 3108,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1662,
+      "line_count": 52
+    },
+    {
+      "path": "submission_bundle/T47/answer.md",
+      "size_bytes": 3220,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1810,
+      "line_count": 59
+    },
+    {
+      "path": "submission_bundle/T48/answer.md",
+      "size_bytes": 2637,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1538,
+      "line_count": 71
+    },
+    {
+      "path": "submission_bundle/T49/answer.md",
+      "size_bytes": 2904,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 1644,
+      "line_count": 27
+    },
+    {
+      "path": "submission_bundle/T50/T50_CEO董事会备忘录.docx",
+      "size_bytes": 10656,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 22,
+      "type": "docx",
+      "paragraph_count": 20,
+      "table_count": 2,
+      "text_sample": "CEO 董事会综合材料 · 董事会备忘录\n主题：经营、客户、法务、产品与财务整合汇报及三项决定请求。\n一、执行摘要\nARR 保持增长（Q2 120 $m，环比 +9.1%），但增长质量走弱：NRR 降至 104%、Logo Churn 升至 2.8%、Gross Margin 降至 68%、New Logos 降至 40。现金跑道约 9.3 个月（测算）。本次请求董事会就三项决定拍板：上线经理扩容、高级 SLA 产品化、全体提价 8%。\n二、经营概览（KPI）\n三、客户与销售（事实与判断）\n事实：5 家企业客户要求 99.95% SLA（当前标准 99.9%），其中 2 家愿为高级 SLA 付费。\n事实：最近 10 个流失访谈中，6 个提到上线慢、3 个 AI 摘要准确性、1 个价格。\n判断：销售建议全体提价 8% 可立即增加 ARR，但未提供流失弹性分析，风险较高（管理层判断）。\n四、产品与法务\n产品：AI 模块内部目标 9/15，销售材料曾写 8/15（未经产品批准）；离线准确率 88%，上线门槛 92%。\n法务：现行自动续约通知仅提前 30 天，两个地区内部政策要求 ≥60 天，须在下轮续约前修正。\n五、三项决定（方案）\n六、决策请求与建议\n批准方案 2（高级 SLA 产品化）：回应客户需求且有 2 家愿付费，投入可控。\n方案 1 做小规模试点（未经试点，不宜直接全量）。\n方案 3 暂缓，须先完成流失弹性分析。\n立即将续约通知修正为 ≥60 天。\n对 AI 模块上线时间、SLA 与提价不作未授权承诺。\n说明：本备忘录事实、管理层判断与建议已分开表述；所有自算数据（现金跑道等）在 XLSX 中可追踪。"
+    },
+    {
+      "path": "submission_bundle/T50/T50_CEO董事会指标附录.xlsx",
+      "size_bytes": 9026,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 18,
+      "type": "xlsx",
+      "sheets": [
+        "KPI",
+        "计算",
+        "Decision Scenarios"
+      ],
+      "sheet_count": 3,
+      "formula_count": 0,
+      "formula_cells_sample": [],
+      "cached_sheet_count": 3
+    },
+    {
+      "path": "submission_bundle/T50/T50_CEO董事会演示.pptx",
+      "size_bytes": 154818,
+      "valid": true,
+      "error": "",
+      "zip_crc_valid": true,
+      "corrupt_member": null,
+      "container_members": 59,
+      "type": "pptx",
+      "slide_count": 6,
+      "chart_count": 0,
+      "table_count": 2,
+      "slide_text": [
+        {
+          "slide": 1,
+          "text": "CEO 董事会材料 · 综合汇报 | 核心结论：ARR 增长但质量走弱（NRR 104%、Logo Churn 2.8%、Gross Margin 68%）；三项决定待董事会拍板。"
+        },
+        {
+          "slide": 2,
+          "text": "经营概览（KPI）"
+        },
+        {
+          "slide": 3,
+          "text": "客户与销售 | · SLA 需求：5 家客户要求 99.95% SLA（当前标准 99.9%），其中 2 家愿为高级 SLA 付费。 | · 流失归因： | 最近 10 个流失访谈：6 个提到上线慢、3 个 AI 摘要准确性、1 个价格。 | · 提价建议（销售）： | 全体提价 8%，但未提供流失弹性分析，风险高。"
+        },
+        {
+          "slide": 4,
+          "text": "产品与法务 | · AI 模块：内部目标 9/15；销售材料曾写 8/15（未经产品批准）。离线准确率 88%，上线门槛 92%。 | · 续约通知合规： | 现行自动续约通知仅提前 30 天，两个地区内部政策要求 ≥60 天，须在下轮续约前修正。"
+        },
+        {
+          "slide": 5,
+          "text": "三项决定（方案）"
+        },
+        {
+          "slide": 6,
+          "text": "决策请求与建议 | 现金跑道（测算）= 28 / 3.0 ≈ 9.3 个月。 | 建议：① 批准方案 2（高级 SLA 产品化，回应客户需求且有 2 家愿付费）；② 方案 1 做小规模试点再扩（未经试点）；③ 方案 3 暂缓，须先做流失弹性分析；④ 立即修正续约通知至 ≥60 天；⑤ 对 AI 模块时间与 SLA 不作未授权承诺。"
+        }
+      ]
+    },
+    {
+      "path": "submission_bundle/T50/_submission_note.md",
+      "size_bytes": 737,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 402,
+      "line_count": 19
+    },
+    {
+      "path": "submission_bundle/run_log.md",
+      "size_bytes": 2717,
+      "valid": true,
+      "error": "",
+      "type": "md",
+      "character_count": 2419,
+      "line_count": 58
+    },
+    {
+      "path": "submission_bundle/submission_manifest.csv",
+      "size_bytes": 3840,
+      "valid": true,
+      "error": "",
+      "type": "csv",
+      "character_count": 3198,
+      "line_count": 51
+    }
+  ]
+}

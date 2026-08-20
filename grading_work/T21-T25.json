@@ -1,0 +1,314 @@
+{
+  "tasks": [
+    {
+      "task_id": "T21",
+      "domain": "法律、合规与政策",
+      "submission_status": "COMPLETE",
+      "required_files": "中文问题清单 + 建议英文修订条款",
+      "actual_files": "T21/answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "问题识别完整性",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "问题表逐项覆盖互惠定义、三年期限与商业秘密例外、允许接收人、residuals、injunctive relief、forum和四项标准排除；例如指出定义仅为“Customer 向 Vendor 披露”、Vendor“无限期保密”、Customer单方unaided memory权及单方管辖。",
+          "deduction_reason": "无扣分；七类Gold check问题均被明确识别。"
+        },
+        {
+          "dimension": "法律与商业判断",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "用高/中优先级说明保护缺口、无限期义务、顾问及关联方业务需要、举证负担和单方管辖风险，并提出“3–5年”“至少含专业顾问”及中立仲裁等商业退让路径。",
+          "deduction_reason": "无扣分；风险机制、商业秘密保护和谈判可行性均有说明。"
+        },
+        {
+          "dimension": "修订条款质量",
+          "max_points": 3.0,
+          "score": 2.2,
+          "evidence": "英文条款以Disclosing Party/Receiving Party实现互惠，采用三年加商业秘密存续期、need-to-know接收人、双向residuals、四项排除及中立仲裁。但第2条仅要求关联方/顾问受同等保密义务，未写明接收方对其违规承担责任；第4条仍保留“without the necessity of proving actual harm”，与问题表要求删除该预设不一致；仲裁地点仅写双方另行同意，缺少无法达成地点协议时的机制。",
+          "deduction_reason": "扣0.4：未落实允许接收人违规责任；扣0.3：禁令条款仍试图免除实际损害证明且与自身建议冲突；扣0.1：仲裁地点机制可能因双方不合意而失灵。"
+        },
+        {
+          "dimension": "谈判策略",
+          "max_points": 1.0,
+          "score": 1.0,
+          "evidence": "每个问题均列“优先级”“建议立场”“可退让方案”，包括禁令可依法申请但不自动、期限可谈3–5年及诉讼地的次选方案。",
+          "deduction_reason": "无扣分；底线和让步空间清楚。"
+        },
+        {
+          "dimension": "格式与边界",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "采用条款—风险—优先级—立场—退让表及独立英文修订区；开头明确“不构成正式法律意见”“不声称适用于所有司法辖区”。",
+          "deduction_reason": "无扣分；结构可审阅且法律边界明确。"
+        }
+      ],
+      "subtotal": 9.2,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.2,
+      "top_issues": [
+        "允许关联方和专业顾问接收信息，却未明确接收方对这些接收人的违约承担责任。",
+        "禁令修订仍写“without the necessity of proving actual harm”，与问题表要求删除该预设不一致。",
+        "中立仲裁地点完全留待双方同意，未设僵局时的仲裁地或机构确定机制。"
+      ],
+      "strengths": [
+        "完整识别七类Gold check问题，并将原单向结构系统性改为互惠结构。",
+        "三年期限、商业秘密持续保护、need-to-know及标准排除项落实充分。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "涉及NDA可执行性、禁令与争议解决的实质法律判断，按控制器应由人工复核。"
+    },
+    {
+      "task_id": "T22",
+      "domain": "法律、合规与政策",
+      "submission_status": "COMPLETE",
+      "required_files": "1,500–2,200字英文Master Services Agreement草案 + 待确认事项清单",
+      "actual_files": "T22/answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "Term sheet忠实度",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "第8.1条保留前12个月已付或应付费用上限，第8.2条列fraud、wilful misconduct、confidentiality及IP indemnity四类例外，第8.3条明确indemnity amounts不受间接损失排除；第3.5条仅允许Customer便利终止单个SOW，须提前30天并支付committed fees和non-cancellable costs。",
+          "deduction_reason": "无扣分；rubric与Gold checks中可核验的核心金额、期限、责任、IP和终止条款均准确保留。"
+        },
+        {
+          "dimension": "法律结构与完整性",
+          "max_points": 2.0,
+          "score": 1.0,
+          "evidence": "草案有服务、变更、费用、IP、保证、责任、赔偿、终止、争议和通用条款框架，但未规定MSA、SOW及Change Order冲突时的优先顺序；保密仅有“reasonable care”和期限两句，缺定义、标准排除、允许披露及依法披露机制；也缺少一般终止后果、资料返还/销毁、存续条款以及assignment、force majeure、waiver等常见通用模块。",
+          "deduction_reason": "扣0.3：缺SOW优先级；扣0.4：保密核心模块实质不完整；扣0.3：终止后果和若干通用条款缺失。"
+        },
+        {
+          "dimension": "内部一致与可执行性",
+          "max_points": 2.0,
+          "score": 1.3,
+          "evidence": "责任上限、四类carve-outs及indemnity例外交叉关系一致，Section 9引用正确；但第5.2条以全额付款作为Deliverables所有权条件，第5.4条嵌入Background IP许可却未同步设置付款条件；草案未规定终止后许可、付款、保密及其他义务如何存续，也未处理文件优先级冲突。",
+          "deduction_reason": "扣0.4：所有权与嵌入IP许可的付款条件未对齐；扣0.3：终止存续及文件冲突机制缺失，影响执行确定性。"
+        },
+        {
+          "dimension": "缺失信息处理",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "Effective Date、双方注册地址、通知邮箱/收件人、DPA及保险限额均明确标为“[TO CONFIRM]”，并在待确认清单中重复列明，没有补造这些未确认事实。",
+          "deduction_reason": "无扣分；五项Gold check未确认信息均妥善占位。"
+        },
+        {
+          "dimension": "格式与专业边界",
+          "max_points": 1.5,
+          "score": 0.8,
+          "evidence": "文件具有英文合同编号和工作稿声明，末尾再次要求qualified counsel复核；但可计英文词约1,035，明显低于要求的1,500–2,200字，条款也相应偏骨架化。",
+          "deduction_reason": "扣0.7：未满足明确篇幅要求，成品更接近简版合同骨架；工作稿和律师复核声明避免了进一步扣分。"
+        }
+      ],
+      "subtotal": 7.6,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 7.6,
+      "top_issues": [
+        "英文正文约1,035词，显著低于1,500–2,200字要求。",
+        "缺少MSA、SOW与Change Order的冲突优先级，且终止后果和存续机制不完整。",
+        "保密条款仅两句，缺定义、排除项、允许/强制披露等关键机制。"
+      ],
+      "strengths": [
+        "责任上限、四类例外、indemnity间接损失例外和便利终止付款均忠实通过Gold checks。",
+        "五项不得虚构的信息均使用[TO CONFIRM]并集中列入确认清单。"
+      ],
+      "confidence": "MEDIUM",
+      "human_review_flag": "YES",
+      "human_review_reason": "MSA涉及责任、IP、赔偿和可执行性等实质法律判断，且草案明显短于要求，需人工法律复核。"
+    },
+    {
+      "task_id": "T23",
+      "domain": "法律、合规与政策",
+      "submission_status": "COMPLETE",
+      "required_files": "不超过900字的中文调查通知 + 经理内部注意事项",
+      "actual_files": "T23/answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "程序公平与准确性",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "通知准确列出7月28日、7月30日、8月3日三天门禁与09:00填报差异，明确7月30日09:15线上客户会议，说明其余两天暂无其他证据，并写明“调查尚未结束”“不构成任何最终决定”和员工回应机会。",
+          "deduction_reason": "无扣分；没有把晚进门等同未工作，也未将待调查差异定性为欺诈或旷工。"
+        },
+        {
+          "dimension": "通知完整性",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "通知包含2026年8月10日14:00的会议时间、核查目的、陪同权、保密范围及联系改期方式；但未说明员工可预先查阅哪些记录或应携带哪些材料，也没有面向员工说明调查后的事实核对、结果告知或后续流程。",
+          "deduction_reason": "扣0.3：缺材料准备/查阅说明；扣0.3：缺员工可见的后续流程说明。"
+        },
+        {
+          "dimension": "措辞与隐私",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "使用“了解”“核查”“听取你的说明”等中立措辞，限定披露给需要知悉人员；经理说明明确禁止羞辱性表述及引入无关健康或家庭信息。",
+          "deduction_reason": "无扣分；措辞尊重且贯彻最小必要披露。"
+        },
+        {
+          "dimension": "经理注意事项",
+          "max_points": 1.5,
+          "score": 1.0,
+          "evidence": "内部事项要求不得预判、聚焦已知事实、允许五个工作日内更正并如实记录Kai的说明；但没有明确要求使用开放式提问，也未要求针对7月28日和8月3日核实远程工作、客户会议或其他工作证据。",
+          "deduction_reason": "扣0.3：缺开放式提问原则；扣0.2：缺对其余两天远程工作可能性的主动核实指引。"
+        },
+        {
+          "dimension": "格式与边界",
+          "max_points": 1.5,
+          "score": 0.8,
+          "evidence": "通知与内部说明分区清楚、篇幅低于900字且基本可直接使用，也多次引用公司政策；但没有注明应按当地劳动法或由当地律师复核。",
+          "deduction_reason": "扣0.7：缺少rubric要求的当地法律复核边界，按该维度锚点最高计0.8。"
+        }
+      ],
+      "subtotal": 8.2,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.2,
+      "top_issues": [
+        "员工通知未说明可查阅/准备的材料，也未交代调查完成后的结果告知流程。",
+        "经理指引没有要求开放式提问或主动核实其余两天是否远程工作。",
+        "未注明需依当地劳动法或由当地律师复核。"
+      ],
+      "strengths": [
+        "正确区分门禁晚到与是否工作，突出7月30日09:15线上会议这一有利事实。",
+        "明确尚未定论、回应和更正机会，语言中立且隐私披露克制。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "员工纪律调查涉及程序公平、劳动法和员工隐私的实质判断，按控制器属于高风险人工复核项。"
+    },
+    {
+      "task_id": "T24",
+      "domain": "法律、合规与政策",
+      "submission_status": "COMPLETE",
+      "required_files": "内部风险评估备忘录 + 条件性客户通知模板",
+      "actual_files": "T24/answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "风险判断",
+          "max_points": 2.5,
+          "score": 2.1,
+          "evidence": "备忘录以强密码、全盘加密、低敏感度联系信息及未发现异常导出为依据，结论为暂不构成很可能高风险，同时承认日志不完整、设备未找回及信息缺口；但没有直接表述“低风险但非零风险”，也未在判断段充分评价两小时内远程擦除的缓释作用。事实段称MDM“完成远程擦除”，证据缺口又称无法确认擦除是否完成，表述未区分命令下达、服务器回执和设备执行。",
+          "deduction_reason": "扣0.2：低但非零的风险结论和全部缓释因素未完整明示；扣0.2：远程擦除状态出现未解释的事实口径冲突。"
+        },
+        {
+          "dimension": "政策应用",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "明确建议在72小时内“完成监管通知评估”并记录结论、证据和复核日期，同时当前不立即通知个人并设置异常解锁、未加密敏感数据和大规模导出的升级触发。",
+          "deduction_reason": "无扣分；正确区分72小时监管评估与必然对外通知。"
+        },
+        {
+          "dimension": "证据缺口与行动",
+          "max_points": 2.0,
+          "score": 1.3,
+          "evidence": "列出离线日志、MDM擦除确认、48名联系人数据类别核对和复核日期，并覆盖异常解锁/导出调查；但未调查SIM停用或滥用情况，未提出继续寻找/找回设备的具体动作，也未把MDM命令下达、设备接收和实际擦除时间分别核验。",
+          "deduction_reason": "扣0.3：遗漏SIM证据；扣0.2：缺设备找回行动；扣0.2：MDM时间线核验粒度不足。"
+        },
+        {
+          "dimension": "通知模板质量",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "模板列明可能涉及姓名、公司邮箱和职位，说明远程擦除、持续调查及防范可疑邮件/电话的建议，并使用“可能”“尚无证据”保留不确定性；但只称“一起安全事件”，未告知公司手机遗失这一基本事实，联系渠道仅写“官方渠道”而无邮箱、电话或负责人占位符。",
+          "deduction_reason": "扣0.3：事件经过说明过于抽象；扣0.3：缺可执行联系渠道占位符。"
+        },
+        {
+          "dimension": "结构与法律边界",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "事实、当前判断、升级条件、证据缺口、行动及条件模板分区清楚；开头限定为题内内部政策且“不构成任何司法辖区的法律结论”。",
+          "deduction_reason": "无扣分；事实、判断和条件均有清晰边界。"
+        }
+      ],
+      "subtotal": 8.3,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.3,
+      "top_issues": [
+        "未直接形成“低风险但非零风险”的完整表述，且“擦除已完成”与“无法确认完成”之间缺少状态解释。",
+        "证据计划遗漏SIM核查和设备找回行动，MDM时间线也未拆分验证。",
+        "条件通知未说明手机遗失，且没有具体联系渠道占位符。"
+      ],
+      "strengths": [
+        "正确将72小时理解为监管通知评估期限，而非自动要求对外通知。",
+        "承认日志不完整并设置异常解锁、未加密敏感数据和大规模导出三类升级触发。"
+      ],
+      "confidence": "MEDIUM",
+      "human_review_flag": "YES",
+      "human_review_reason": "个人数据事件的风险等级、通知阈值和升级触发均属实质隐私判断，且擦除状态存在表述不确定性，需人工复核。"
+    },
+    {
+      "task_id": "T25",
+      "domain": "法律、合规与政策",
+      "submission_status": "COMPLETE",
+      "required_files": "12项主张的Green/Yellow/Red矩阵 + 每项合规改写",
+      "actual_files": "T25/answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "分类准确性",
+          "max_points": 3.0,
+          "score": 2.8,
+          "evidence": "#1/#4/#6/#7/#9/#11均为Red，#3为Yellow，#2/#5/#8/#12为Green，符合主要Gold checks；#10列为Yellow，理由仅为“数千家”模糊和可能低估，而12,400足以支持“数千家”，该理由不足以形成明显合规风险。",
+          "deduction_reason": "扣0.2：#10的Yellow分类解释不够充分；其余11项分类准确。"
+        },
+        {
+          "dimension": "理由与证据边界",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "逐项对应证据与规则，明确#3为72家、3个月、内部样本、无对照，#9无竞品速度测试，#7证据不覆盖供应链，#8只覆盖自有办公室运营用电，#12只限2025年核实可用性。",
+          "deduction_reason": "无扣分；证据边界和禁止泛化的原因具体。"
+        },
+        {
+          "dimension": "合规改写",
+          "max_points": 2.5,
+          "score": 2.0,
+          "evidence": "#3完整保留72家、3个月、中位数、内部样本和无对照等限定；#2、#8、#12保留日期及范围边界，多数Red项给出替代文案。但#5把SOC 2 Type II“报告”改写为“认证”，改变证据性质；#9仅称需先测试，未提供当前可发布的非比较改写。",
+          "deduction_reason": "扣0.2：#5使用不准确的“认证”措辞；扣0.3：#9没有交付可直接发布的替代文案。"
+        },
+        {
+          "dimension": "风险优先级",
+          "max_points": 1.0,
+          "score": 0.8,
+          "evidence": "矩阵把全球第一、保证ROI、无法攻破和公司级100%碳中和全部标为Red，并说明各自风险；但汇总仅把六项Red并列，没有明确指出这四类绝对/保证主张的最高优先级。",
+          "deduction_reason": "扣0.2：颜色体现风险，但缺少Red内部优先级或首要下线清单。"
+        },
+        {
+          "dimension": "格式与可用性",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "12行矩阵完整列出原主张、状态、逐项理由和改写，末尾核对Green/Yellow/Red数量，便于直接审阅。",
+          "deduction_reason": "无扣分；矩阵完整且可执行。"
+        }
+      ],
+      "subtotal": 9.1,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.1,
+      "top_issues": [
+        "#5把SOC 2 Type II报告称为“认证”，超出了给定证据的准确表述。",
+        "#9只要求未来补做竞品测试，没有给出当前可发布的非比较替代主张。",
+        "#10将有12,400家证据支持的“数千家”列为Yellow，所给合规风险理由较弱。"
+      ],
+      "strengths": [
+        "六项明显Red、#3 Yellow及证据边界均与Gold checks高度一致。",
+        "#3改写完整保留72家、3个月、内部样本、中位数下降40%和无对照等关键限定。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "营销绝对主张、比较主张、安全和环境声明涉及实质广告合规判断，按控制器应由人工复核。"
+    }
+  ]
+}
