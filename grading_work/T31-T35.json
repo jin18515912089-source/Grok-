@@ -1,0 +1,314 @@
+{
+  "tasks": [
+    {
+      "task_id": "T31",
+      "domain": "财务、投资与会计",
+      "submission_status": "COMPLETE",
+      "required_files": "一份中文财务数据质量备忘录，含勾稽表、疑点、可能修正和待确认问题",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "勾稽检查准确性",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "answer.md第8-18行逐项算出P&L为500-300-95-25=80、80-10-14=56，两期BS均平，PPE为200+20-25=195，权益为220+56-32=244；第20-37行另算现金流口径期末现金28并识别其与BS现金58相差30。",
+          "deduction_reason": "无扣分；五个模块的结论和核心数值均与Gold checks一致。"
+        },
+        {
+          "dimension": "问题定位",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "第41-46行明确指出other working capital (30)在BS无对应变化，删除后CFO=60、净现金变动=+8、期末现金=58。",
+          "deduction_reason": "无扣分；准确定位到具体项目并完整展示最简修正后的勾稽链。"
+        },
+        {
+          "dimension": "审计判断与替代解释",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "第43行把删除30界定为“证据支持的最可能修正（最简路径）”，第48-51行保留未披露营运资本变动、BS漏记及现金记账错误等替代解释，并要求凭证、明细账和银行对账单验证。",
+          "deduction_reason": "无扣分；没有把推断写成确定事实。"
+        },
+        {
+          "dimension": "建议与控制",
+          "max_points": 1.5,
+          "score": 1.0,
+          "evidence": "第49-57行要求核对营运资本明细账、构成凭证、对方科目和银行对账单，覆盖了关键实质性核验。",
+          "deduction_reason": "未明确提出总账/试算平衡表核验、现金流映射表复核及编制人与复核人等持续性编制控制，控制建议不够完整。"
+        },
+        {
+          "dimension": "结构与清晰度",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "备忘录按内部勾稽、现金差异、疑点、替代解释、待确认问题和结论组织；金额单位、括号含义、公式和正负号均明确，现金流表可直接复核。",
+          "deduction_reason": "无扣分；结构清楚且具备审计跟进所需的计算过程。"
+        }
+      ],
+      "subtotal": 9.5,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.5,
+      "top_issues": [
+        "控制建议未明确把现金流项目逐项追溯至总账或试算平衡表。",
+        "未提出维护并复核现金流映射表这一编制控制。",
+        "未说明编制人/复核人、复核证据留存等持续性控制责任。"
+      ],
+      "strengths": [
+        "P&L、BS、PPE、权益和现金流差异的全部核心计算准确且可复核。",
+        "把删除30作为待凭证验证的最简修正，同时保留了合理替代解释。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "涉及财务报表勾稽及潜在30百万元错报；删除项目仍是需凭证验证的会计判断，建议人工复核。"
+    },
+    {
+      "task_id": "T32",
+      "domain": "财务、投资与会计",
+      "submission_status": "COMPLETE",
+      "required_files": "一份1,000-1,400字中文投资备忘录，含估值、情景、预期值、催化剂、风险和仓位建议",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "估值计算",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "第11-23行给出Bear/Base/Bull的EV、加2亿净现金后的股权价值和每股23/50/82美元；概率25%/50%/25%加总100%，加权值51.25美元，相对45美元为+13.9%。",
+          "deduction_reason": "无扣分；EV到股权桥、概率和上下行计算均准确。"
+        },
+        {
+          "dimension": "业务与单位经济分析",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "第7行同时识别交易量+35%与每笔净费率-12%，并讨论订阅ARR+28%、NRR 106%、单一渠道贡献42%新客及监管费率不确定性。",
+          "deduction_reason": "无扣分；覆盖rubric要求的增长质量、费率、订阅、渠道和监管因素。"
+        },
+        {
+          "dimension": "风险回报与仓位",
+          "max_points": 2.0,
+          "score": 1.7,
+          "evidence": "第21-23行准确呈现Bear -48.9%和Bull +82.2%；第39-43行据+13.9%期望回报与尾部风险建议小仓试探，并以渠道续签和费率规则作为加仓条件。",
+          "deduction_reason": "“不超过组合的启动仓位”和“严格下行保护”没有给出仓位上限、允许损失或风险预算，执行量级不够明确。"
+        },
+        {
+          "dimension": "催化剂与证伪",
+          "max_points": 2.0,
+          "score": 1.2,
+          "evidence": "第27-29行列出Q4订阅产品、9个月后渠道续签和监管规则三个事件；第41行把费率加速压缩和渠道流失列为离场信号。",
+          "deduction_reason": "除Q4和9个月外缺少完整时间窗；kill criteria仅为定性描述，未给渠道留存率、净费率、NRR或订阅增长的可测阈值。"
+        },
+        {
+          "dimension": "结构与表达",
+          "max_points": 1.5,
+          "score": 0.9,
+          "evidence": "备忘录用估值表和独立章节区分业务事实、测算、风险及建议，核心数字可复核。",
+          "deduction_reason": "正文显著短于要求的1,000-1,400字，且结论放在末段而非结论先行；篇幅不足也限制了证伪条件的展开。"
+        }
+      ],
+      "subtotal": 8.3,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.3,
+      "top_issues": [
+        "费率、渠道、NRR和订阅的证伪条件没有量化阈值，难以据此执行退出。",
+        "小仓建议未转换为组合占比、最大损失或风险预算。",
+        "备忘录显著短于1,000-1,400字要求，且未做到结论先行。"
+      ],
+      "strengths": [
+        "三情景估值、净现金桥、概率加权值和上下行计算全部准确。",
+        "业务分析没有被交易量增长误导，充分识别费率压缩、订阅质量、渠道集中和监管风险。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "属于高风险投资建议；仓位与kill criteria缺少量化阈值，需人工判断其风险适当性。"
+    },
+    {
+      "task_id": "T33",
+      "domain": "财务、投资与会计",
+      "submission_status": "COMPLETE",
+      "required_files": "中文风险快照，含总/净敞口、beta调整敞口、行业敞口、压力P&L和两项对冲建议",
+      "actual_files": "answer.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "敞口计算",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "第15-23行展示Gross=65/50=130%、Net=25/50=50%，beta dollar=29.8并除以50得到59.6%；空头均以负号进入净额。",
+          "deduction_reason": "无扣分；三个核心敞口值及计算过程均准确。"
+        },
+        {
+          "dimension": "行业集中度",
+          "max_points": 1.5,
+          "score": 1.2,
+          "evidence": "第27-31行准确列出Tech +18、Health +15、Consumer -8百万美元，行业符号和多空净额正确。",
+          "deduction_reason": "未把行业净敞口明确换算为NAV比例36%、30%和-16%，少一层可比的集中度表达。"
+        },
+        {
+          "dimension": "压力测试",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "第33-41行在Tech -10%、Health -5%、Consumer +4%下分别算得-1.80、-0.75、-0.32百万美元，总损失-2.87百万美元，即NAV的-5.74%；Consumer空头在行业上涨时正确计为亏损。",
+          "deduction_reason": "无扣分；分行业、总额和NAV比例均与Gold checks一致。"
+        },
+        {
+          "dimension": "风险判断与对冲",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "第45-48行识别Tech集中与59.6%的市场beta风险，提出Tech专属对冲和宽基指数对冲，并给出Tech降至+10以内、beta净敞口降至20%-30%的目标。",
+          "deduction_reason": "虽然有目标区间，但没有把目标转换为期货/期权合约数或beta美元名义金额；也未说明基差、对冲成本、期权时间衰减及限制上涨收益等副作用。"
+        },
+        {
+          "dimension": "格式与可复核性",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "头寸、行业和压力情景均以表格展示，单位定义为百万美元，空头符号、公式和NAV分母明确，结论简洁。",
+          "deduction_reason": "无扣分；核心数字可从头寸逐步追踪。"
+        }
+      ],
+      "subtotal": 9.1,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.1,
+      "top_issues": [
+        "行业净敞口未同时报告占NAV的36%、30%和-16%。",
+        "两项对冲没有转换为beta美元名义金额或可执行合约数量。",
+        "未披露基差、对冲成本、期权时间衰减或放弃部分上涨等对冲副作用。"
+      ],
+      "strengths": [
+        "Gross、Net和beta调整净敞口均有完整公式且结果准确。",
+        "压力测试正确处理Consumer空头在行业上涨时的亏损方向，并准确汇总为-5.74% NAV。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "YES",
+      "human_review_reason": "涉及组合风险与衍生品对冲执行；对冲名义金额和副作用未量化，需人工复核。"
+    },
+    {
+      "task_id": "T34",
+      "domain": "财务、投资与会计",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX，含24个月租赁负债、利息、本金、ROU折旧和年度汇总",
+      "actual_files": "T34_IFRS16租赁摊销表.xlsx、_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "初始计量",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "Assumptions表B3明确为月末支付100,000元、共24期，B5为有效月率0.004867550565343048，B6初始负债2,259,937元；分别与Gold的0.004867550565和2,259,936.67元在显示精度内一致。",
+          "deduction_reason": "无数值扣分；期末支付口径、有效月率和初始负债均正确。零公式及硬编码问题仅在“可追踪性与控制”维度扣分，避免重复处罚。"
+        },
+        {
+          "dimension": "24个月摊销",
+          "max_points": 2.5,
+          "score": 2.4,
+          "evidence": "Schedule表有24期，逐行数值满足利息约等于期初负债×月率、本金=100,000-利息、期末负债=期初负债-本金；第12期后余额1,162,879元接近Gold 1,162,880.03元，第24期余额-2元，实质归零。",
+          "deduction_reason": "逐月按整数四舍五入使第12期余额偏低约1元、末期出现-2元；属于轻微精度差异。公式缺失另在可追踪性维度处理。"
+        },
+        {
+          "dimension": "ROU折旧与年度汇总",
+          "max_points": 1.5,
+          "score": 1.4,
+          "evidence": "Schedule每月ROU折旧94,164元，Annual Summary列2027/2028各年现金支付1,200,000元、折旧1,129,969元；2027利息102,942元、年末负债1,162,879元，均接近Gold值。",
+          "deduction_reason": "2027利息较Gold 102,943.37元低约1.37元，年度折旧较Gold 1,129,968.33元高约0.67元，且年度折旧1,129,969与表内12×94,164=1,129,968存在1元不一致。"
+        },
+        {
+          "dimension": "可追踪性与控制",
+          "max_points": 1.5,
+          "score": 0.4,
+          "evidence": "工作簿设有独立Assumptions表，并分开列示开始日期、付款方式、年率、月率、PV和ROU口径；但以data_only=False检查三个工作表均为零公式。",
+          "deduction_reason": "所有结果均手工写死，Assumptions没有驱动Schedule或Annual Summary，也没有PV重算、年度汇总勾稽或期末零余额检查；按“结果手工写死最多0.5”锚点评分。"
+        },
+        {
+          "dimension": "文件与格式",
+          "max_points": 2.0,
+          "score": 1.3,
+          "evidence": "XLSX可由openpyxl在data_only=False/True下独立打开，含Assumptions、Schedule、Annual Summary三个可见工作表；表头有深色填充和加粗字体，主要列设置了可读列宽。",
+          "deduction_reason": "Schedule第13-24期错误标为“2027-13”至“2027-24”而非2028年月份；日期和利率部分以文本保存，全部数字格式为General，且未冻结表头。"
+        }
+      ],
+      "subtotal": 8.0,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.0,
+      "top_issues": [
+        "三个工作表均为零公式，假设、摊销表和年度汇总之间没有单元格引用或控制检查。",
+        "第13-24期月份标签写成不存在的2027-13至2027-24，与Annual Summary的2028年度不一致。",
+        "逐月整数化导致2027利息、年度折旧和末期-2元出现轻微精度或汇总差异。"
+      ],
+      "strengths": [
+        "有效月率、初始负债、第12期余额、月折旧和2027年度关键值均与Gold checks高度吻合。",
+        "要求的三个工作表齐全且可打开，24期利息、本金和负债数值链完整，末期余额实质归零。"
+      ],
+      "confidence": "MEDIUM",
+      "human_review_flag": "YES",
+      "human_review_reason": "属于高风险IFRS 16会计模型；关键数值虽正确，但零公式、错误月份标签及缺少控制检查使模型无法可靠追踪，需人工复核。"
+    },
+    {
+      "task_id": "T35",
+      "domain": "财务、投资与会计",
+      "submission_status": "COMPLETE",
+      "required_files": "可编辑XLSX及500字内中文采购建议，含NPV、敏感性和非价格风险",
+      "actual_files": "T35_采购三年TCO_NPV.xlsx、answer.md、_submission_note.md",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "NPV计算准确性",
+          "max_points": 3.0,
+          "score": 3.0,
+          "evidence": "NPV表列A=1,426.8、B=1,470.6、C=1,494.6千美元，均与Gold 1,426.808、1,470.573、1,494.632在显示精度内一致；TCO_NPV表将实施/培训标为t0、迁移费标为Y1，并将C的Y3残值以-120抵减成本。根据可见现金流按8%独立重算可复现三项结果。",
+          "deduction_reason": "无数值扣分；三项NPV、时点和残值方向均正确。零公式问题仅在“文件与表达”维度扣分，避免重复处罚。"
+        },
+        {
+          "dimension": "成本驱动分析",
+          "max_points": 1.5,
+          "score": 1.0,
+          "evidence": "TCO_NPV表分别展示许可、支持、停机、迁移和残值；answer.md第15-17行识别B许可费逐年上涨与停机假设不确定，并指出C有120千美元残值和最低停机成本但NPV仍最高。",
+          "deduction_reason": "没有解释B的低首年许可如何被支持、停机、迁移和涨价共同抵消，也未量化C的残值与低停机为何仍不足以成为最低成本。"
+        },
+        {
+          "dimension": "敏感性",
+          "max_points": 1.5,
+          "score": 0.3,
+          "evidence": "answer.md第16行和工作簿结论表仅定性指出Vendor B停机成本假设最不确定；工作簿没有敏感性工作表、情景列或阈值计算。",
+          "deduction_reason": "没有对停机成本或折现率重算任何情景，也没有报告改变供应商选择所需的阈值或方向性幅度。"
+        },
+        {
+          "dimension": "建议与非价格风险",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "answer.md第3行和第19-21行推荐最低NPV的A，但要求补充同规模客户参考并绑定里程碑付款；明确A仅有两个同规模客户，并把实施记录更充分的C作为条件性备选。工作簿结论表与此一致。",
+          "deduction_reason": "无扣分；建议与可见NPV一致且没有忽略样本风险。"
+        },
+        {
+          "dimension": "文件与表达",
+          "max_points": 2.0,
+          "score": 1.0,
+          "evidence": "XLSX可由openpyxl在data_only=False/True下打开，含TCO_NPV、NPV、结论三个可见工作表；现金流时点通过t0/Y1/Y2/Y3标签表达，输入、结果和结论分表展示，answer.md短于500字且与模型排名一致。",
+          "deduction_reason": "三个工作表均为零公式，NPV和排名全部硬编码，8%折现率也没有独立输入单元格；因此无法从输入追踪或编辑重算。数值格式均为General、无冻结窗格，呈现较基础。"
+        }
+      ],
+      "subtotal": 7.3,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 7.3,
+      "top_issues": [
+        "三个工作表均为零公式，NPV、排名和8%折现率未与现金流输入建立可追踪关系。",
+        "没有任何定量敏感性情景或会改变选择的阈值。",
+        "对B和C的成本驱动仅作列举，未展示许可、支持、停机、迁移、涨价和残值之间的抵消关系。"
+      ],
+      "strengths": [
+        "三家NPV及排序可由工作簿现金流独立复算并与Gold checks一致，C的残值也正确作为成本抵减。",
+        "推荐A时明确附加同规模客户验证和里程碑付款条件，并保留C作为风险备选。"
+      ],
+      "confidence": "MEDIUM",
+      "human_review_flag": "YES",
+      "human_review_reason": "属于高风险采购财务模型；可见现金流能复算正确NPV，但工作簿零公式且没有敏感性，模型可编辑性和决策稳健性需人工复核。"
+    }
+  ]
+}

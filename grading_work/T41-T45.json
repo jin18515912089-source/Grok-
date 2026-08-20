@@ -1,0 +1,314 @@
+{
+  "tasks": [
+    {
+      "task_id": "T41",
+      "domain": "人力资源与内部沟通",
+      "submission_status": "COMPLETE",
+      "required_files": "中文岗位说明书 + 结构化招聘评分卡",
+      "actual_files": "answer.md（含中文岗位说明书与结构化招聘评分卡）",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "岗位重构与合规",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "明确采用5–8年相关经验；将“年轻、名校、未婚、经常加班”等偏见项全部剔除；把跨时区安排限定为每季度2–3次，并说明提前安排、弹性工时和调休。",
+          "deduction_reason": "无扣分；满足合规与合理工作安排要求。"
+        },
+        {
+          "dimension": "职责与成果",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "职责覆盖KPI体系、自动化周报/仪表板、定价分析、管理层/董事会沟通及带教，内容与岗位输入一致。",
+          "deduction_reason": "多数职责仍以“搭建、提升、输出、指导”表述，未给出时效、准确率、自动化覆盖率或带教成果等可验收指标，未充分写成可衡量成果。"
+        },
+        {
+          "dimension": "资格分层",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "SQL、Excel、经营分析和管理层沟通列为Must-have，Python列为Preferred；未设置学历硬门槛。",
+          "deduction_reason": "无扣分；Must/Preferred分层清楚。"
+        },
+        {
+          "dimension": "评分卡质量",
+          "max_points": 2.5,
+          "score": 2.0,
+          "evidence": "评分卡覆盖SQL/Excel、经营指标、定价、管理层沟通、自动化及带教/协作，并为每项提供1/3/5分锚点。",
+          "deduction_reason": "未给出任何维度权重，而写成“权重由招聘委员会另定”，不能直接形成稳定的加权决策；部分锚点如“独自工作/能协作”较泛，行为证据标准不够具体。"
+        },
+        {
+          "dimension": "格式与候选人体验",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "岗位概述、职责、资格和评分卡分区清楚；语言包容，并透明说明低频晚间会议及补偿安排。",
+          "deduction_reason": "无扣分；结构和工作安排透明度良好。"
+        }
+      ],
+      "subtotal": 8.9,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.9,
+      "top_issues": [
+        "职责未设置数值、周期或验收口径，难以据此衡量岗位成果。",
+        "招聘评分卡没有权重，最终加权规则被留待另定。",
+        "部分1/3/5锚点偏概括，例如“独自工作/能协作”，可观察行为区分度不足。"
+      ],
+      "strengths": [
+        "完整移除年龄、婚育、名校和常态加班筛选，并把经验校准为5–8年。",
+        "技术、商业判断、管理沟通、自动化和带教均进入结构化评分卡。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "文件完整可读，合规Gold check与评分卡内容可直接核验，未触发CAP。"
+    },
+    {
+      "task_id": "T42",
+      "domain": "人力资源与内部沟通",
+      "submission_status": "COMPLETE",
+      "required_files": "中文候选人比较表 + 录用建议 + 复核问题",
+      "actual_files": "answer.md（含比较表、录用建议与复核问题）",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "加权计算",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "按30%/25%/20%/15%/10%逐项展示计算，A=3.85、B=3.90、C=3.95；同时正确说明三人分析分均未低于3。",
+          "deduction_reason": "无扣分；分数、权重及硬门槛判断均准确。"
+        },
+        {
+          "dimension": "证据与偏见控制",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "明确排除招聘经理与A同校的偏好；区分量化评分与案例/现场题证据，并指出B只完成一半SQL题、C领域经验较浅的风险。",
+          "deduction_reason": "无扣分；关键证据和偏见控制完整。"
+        },
+        {
+          "dimension": "录用判断",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "条件性推荐C，明确三人总分仅相差0.10，要求补充验证，并在验证不通过时调整决策。",
+          "deduction_reason": "无扣分；没有把微小分差解释成确定性优势。"
+        },
+        {
+          "dimension": "复核设计",
+          "max_points": 2.0,
+          "score": 1.1,
+          "evidence": "提出核验C的SQL能力和领域学习计划、追问B的SQL现场题原因、复核A的领导力风险。",
+          "deduction_reason": "没有为候选人设置同一SQL/领域任务、统一难度和统一通过标准；仅要求C补做SQL题，对B已出现的SQL风险只追问原因，证据可比性不足，也未给出学习计划的核验方法或判定阈值。"
+        },
+        {
+          "dimension": "格式与专业度",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "比较表、门槛、证据、建议和复核问题分区清晰；仅使用A/B/C代称，未暴露候选人隐私。",
+          "deduction_reason": "无扣分；信息可追踪且措辞专业。"
+        }
+      ],
+      "subtotal": 9.1,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.1,
+      "top_issues": [
+        "复核未采用所有候选人相同的SQL或领域任务，难以公平横向比较。",
+        "对C领域学习计划只要求核验，未定义取证方式、评分标准或通过阈值。",
+        "回退候选人B已有SQL题仅完成一半的风险，却未安排与C同标准的SQL复测。"
+      ],
+      "strengths": [
+        "三名候选人的加权分和分析硬门槛判断全部准确。",
+        "明确剔除同校偏好，并以仅0.10的分差支持条件性而非武断推荐。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "计算和证据均可直接核验，复核设计缺口明确，未触发同校偏见CAP。"
+    },
+    {
+      "task_id": "T43",
+      "domain": "人力资源与内部沟通",
+      "submission_status": "COMPLETE",
+      "required_files": "经理谈话脚本 + 30天改进计划表",
+      "actual_files": "answer.md（含经理谈话脚本与30天改进计划表）",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "证据与公平性",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "准确写明12份中3份延迟、75%按时率；将数据仓库两天故障与两项可控流程延迟区分，并认可11份无需重大修改、4.7/5满意度和主动分享检查清单。",
+          "deduction_reason": "无扣分；质量、主动性及可控性归因均准确。"
+        },
+        {
+          "dimension": "反馈技巧",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "使用Situation-Behavior-Impact逐条描述事实与影响，明确不对人评价，并邀请Rina说明进度安排和卡点。",
+          "deduction_reason": "无扣分；对话式反馈具体且无标签、威胁。"
+        },
+        {
+          "dimension": "30天目标",
+          "max_points": 2.0,
+          "score": 1.9,
+          "evidence": "设置未来4周按时率≥95%、启动24小时内确认口径、截止日前至少2天发起复核，均有跟踪口径。",
+          "deduction_reason": "同一行同时要求“按时率≥95%”和“无个人可控延迟”，两者在样本量下并不等价，成功判定存在轻微口径冲突。"
+        },
+        {
+          "dimension": "支持与责任",
+          "max_points": 2.0,
+          "score": 1.9,
+          "evidence": "提供每周15分钟优先级检查、口径确认人名单和未来4周备份复核人，并安排4周后共同复盘。",
+          "deduction_reason": "支持项齐全，但未明确由谁维护周度记录、每周检查输出什么结论，执行留痕责任略不充分。"
+        },
+        {
+          "dimension": "格式与边界",
+          "max_points": 1.5,
+          "score": 1.5,
+          "evidence": "谈话脚本自然、计划表清楚，并两次明确该安排是支持性改进计划而非已决定的正式PIP或处分。",
+          "deduction_reason": "无扣分；程序边界表达准确。"
+        }
+      ],
+      "subtotal": 9.8,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.8,
+      "top_issues": [
+        "“按时率≥95%”与“无个人可控延迟”被并列为同一成功口径，但两者并不等价。",
+        "按时率分母写成总交付数，未明确系统故障交付如何计入30天结果口径。",
+        "周检未指定记录维护人和每周需留存的检查结果。"
+      ],
+      "strengths": [
+        "精确区分两项可控延迟与一项系统故障，同时充分认可质量和主动性。",
+        "SBI脚本、员工视角提问、量化目标及经理支持形成完整的辅导闭环。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "事实基线、谈话脚本和计划均完整可读，归因公平且未触发CAP。"
+    },
+    {
+      "task_id": "T44",
+      "domain": "人力资源与内部沟通",
+      "submission_status": "COMPLETE",
+      "required_files": "全员中文公告 + 8问FAQ + 经理级联沟通要点",
+      "actual_files": "answer.md（含全员中文公告、8问FAQ与经理级联沟通要点）",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "事实准确与不确定性",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "准确列出88 Harbor Road、11月2日启用、10月30日最后办公、地铁步行6分钟、无障碍入口、母婴室、120工位/145员工预约制及混合政策不变；停车、通勤支持、固定区域、访客和餐饮均标为待定。",
+          "deduction_reason": "无扣分；未对停车、补贴或固定区域作虚构承诺。"
+        },
+        {
+          "dimension": "员工需求覆盖",
+          "max_points": 2.0,
+          "score": 1.6,
+          "evidence": "FAQ覆盖地点日期、座位、停车、跨区通勤、个人/公司物品、混合政策、访客及战略含义，相关回答具体。",
+          "deduction_reason": "无障碍信息只出现在公告正文，没有进入8问FAQ；FAQ也未设置清晰的综合更新时间/后续查询问题，员工需求覆盖未完全达到满分锚点。"
+        },
+        {
+          "dimension": "行动与时间线",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "完整包含8月20日调查截止、9月15日更新、10月23日打包、10月30日最后办公和11月2日启用，前后一致。",
+          "deduction_reason": "无扣分；五个关键节点齐全。"
+        },
+        {
+          "dimension": "语气与变化管理",
+          "max_points": 2.0,
+          "score": 1.8,
+          "evidence": "使用“已确定/待定”边界，语气平静透明，并明确不把搬迁解读为人员增减或扩张信号。",
+          "deduction_reason": "除匿名通勤调查外，没有提供供员工提出一般搬迁问题的反馈渠道、邮箱或渠道占位。"
+        },
+        {
+          "dimension": "格式与经理工具",
+          "max_points": 1.5,
+          "score": 1.4,
+          "evidence": "公告、8问FAQ和4条经理级联要点清楚分开，经理要点强调不承诺待定事项并提醒关键日期。",
+          "deduction_reason": "经理要点未提示120工位对应145员工的容量背景及无障碍设施，处理员工现场追问的核心事实略不完整。"
+        }
+      ],
+      "subtotal": 9.3,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 9.3,
+      "top_issues": [
+        "无障碍入口虽在公告中出现，但8问FAQ没有覆盖无障碍需求。",
+        "没有设置一般搬迁问题的反馈渠道或联系占位。",
+        "经理级联要点未纳入120工位/145员工及无障碍设施这两项高频问答事实。"
+      ],
+      "strengths": [
+        "地址、五个关键日期、设施、工位容量和混合政策均准确且一致。",
+        "对停车、通勤支持和固定区域等待定项保持透明，没有作承诺，未触发CAP。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "公告、FAQ和经理工具完整可读，关键事实与待定边界可直接核验。"
+    },
+    {
+      "task_id": "T45",
+      "domain": "人力资源与内部沟通",
+      "submission_status": "COMPLETE",
+      "required_files": "培训需求分析 + 30天学习计划 + 评估仪表板",
+      "actual_files": "answer.md（含培训需求分析、30天学习计划与评估仪表板）",
+      "file_validity": "VALID",
+      "complete_deliverables": true,
+      "dimensions": [
+        {
+          "dimension": "优先级判断",
+          "max_points": 2.5,
+          "score": 2.5,
+          "evidence": "把隐私列为P0、Excel列为P1、客户沟通列为P2；明确隐私自评4.5仍有高风险事件、Excel自评4.2仍有8错和3次重发，并将无客户影响的SQL降至P4。",
+          "deduction_reason": "无扣分；优先级依据实际风险和业务影响，而非自评分高低。"
+        },
+        {
+          "dimension": "计划可行性",
+          "max_points": 2.0,
+          "score": 2.0,
+          "evidence": "四周分别安排1、1.5、1、1小时，均不超过每周2小时；组合隐私情景、Excel工作坊、同伴复核和经理抽查，并将4小时SQL课移至下一阶段。",
+          "deduction_reason": "无扣分；时间与资源约束处理合理。"
+        },
+        {
+          "dimension": "学习目标与迁移",
+          "max_points": 2.0,
+          "score": 1.4,
+          "evidence": "目标关联报告公式错误、隐私分享、客户升级和图表返工，并设置经理抽查实际输出。",
+          "deduction_reason": "隐私目标停留在演练中识别拦截，未明确实际发送敏感数据前的收件人/权限验证；Excel仅要求错误归零，未定义公式检查动作；客户沟通只写升级下降，未规定需练习并迁移的具体沟通行为。"
+        },
+        {
+          "dimension": "评估设计",
+          "max_points": 2.0,
+          "score": 1.5,
+          "evidence": "仪表板包含公式错误/重发、隐私事件、客户升级、图表返工和抽查通过率等结果指标，并给出30天目标。",
+          "deduction_reason": "公式指标名称是“错误数”却用3次重发作为基线，未使用已知8个公式错误；隐私指标仅写目标0起而未呈现1→0基线，抽查通过率也没有基线，前后比较不够严谨。"
+        },
+        {
+          "dimension": "结构与表达",
+          "max_points": 1.5,
+          "score": 1.0,
+          "evidence": "分析、四周计划和仪表板分区清楚，表格可追踪。",
+          "deduction_reason": "计划没有负责人字段或逐项责任人，也未区分哪些训练面向全员、哪些只针对发生错误或高风险人员；“每人每周”呈现为统一安排，缺少定向训练逻辑。"
+        }
+      ],
+      "subtotal": 8.4,
+      "cap_triggered": false,
+      "cap_rule": "无",
+      "final_score": 8.4,
+      "top_issues": [
+        "学习目标缺少敏感数据发送前验证、公式检查步骤和客户沟通行为等具体工作迁移动作。",
+        "仪表板把3次重发当作公式错误基线，遗漏已知8个公式错误，且部分指标无基线。",
+        "30天计划未列负责人，也未区分全员训练与定向训练。"
+      ],
+      "strengths": [
+        "正确以隐私风险和Excel实际错误为最高优先级，没有被高自评误导。",
+        "四周学习负荷均在每周2小时内，并组合情景、工作坊、同伴复核和经理抽查。"
+      ],
+      "confidence": "HIGH",
+      "human_review_flag": "NO",
+      "human_review_reason": "三项交付完整，优先级与CAP判断清楚，主要缺口集中于迁移指标和责任设计。"
+    }
+  ]
+}
