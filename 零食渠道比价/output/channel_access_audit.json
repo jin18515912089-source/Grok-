@@ -1,0 +1,105 @@
+[
+  {
+    "渠道": "淘宝",
+    "目标": "商品搜索",
+    "URL": "https://s.taobao.com/search?q=%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87",
+    "最终URL": "https://s.taobao.com/search?q=%25E4%25B9%2590%25E4%25BA%258B%25E8%2596%25AF%25E7%2589%2587",
+    "标题": "",
+    "重定向到登录/验证": true,
+    "命中拦截关键词": [
+      "请登录",
+      "亲，请登录"
+    ],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "拼多多",
+    "目标": "商品搜索",
+    "URL": "https://mobile.yangkeduo.com/search_result.html?search_key=%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87",
+    "最终URL": "https://mobile.yangkeduo.com/login.html?from=https%3A%2F%2Fmobile.yangkeduo.com%2Fsearch_result.html%3Fsearch_key%3D%25E4%25B9%2590%25E4%25BA%258B%25E8%2596%25AF%25E7%2589%2587&refer_page_name=login&refer_page_id=10169_1787912408309_6nm6fssa48&refer_page_sn=10169&_x_no_login_launch=1",
+    "标题": "登录",
+    "重定向到登录/验证": true,
+    "命中拦截关键词": [
+      "手机登录",
+      "验证"
+    ],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "京东",
+    "目标": "商品搜索",
+    "URL": "https://search.jd.com/Search?keyword=%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87&enc=utf-8",
+    "最终URL": "https://search.jd.com/Search?keyword=%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87&enc=utf-8",
+    "标题": "乐事薯片 - 商品搜索 - 京东",
+    "重定向到登录/验证": true,
+    "命中拦截关键词": [
+      "请登录"
+    ],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "盒马",
+    "目标": "商品搜索",
+    "URL": "https://www.freshhema.com/searchList?keyword=%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87",
+    "最终URL": "https://error.taobao.com/app/tbhome/common/error.html",
+    "标题": "淘宝网 - 淘！我喜欢",
+    "重定向到登录/验证": false,
+    "命中拦截关键词": [],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "永辉超市",
+    "目标": "官网商品目录",
+    "URL": "https://www.yonghui.com.cn/",
+    "最终URL": "https://www.yonghui.com.cn/",
+    "标题": "永辉超市官方网站",
+    "重定向到登录/验证": false,
+    "命中拦截关键词": [],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "大润发",
+    "目标": "官网商品目录",
+    "URL": "https://www.rt-mart.com.cn/",
+    "最终URL": "https://www.rt-mart.com.cn/",
+    "标题": "【大润发官网】生活必需品购物大润发_大润发官网",
+    "重定向到登录/验证": false,
+    "命中拦截关键词": [],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "京东到家",
+    "目标": "门店商品搜索",
+    "URL": "https://daojia.jd.com/html/main/search?keyword=%E9%9B%B6%E9%A3%9F%E5%BE%88%E5%BF%99",
+    "最终URL": "https://daojia.jd.com/html/main/search?keyword=%E9%9B%B6%E9%A3%9F%E5%BE%88%E5%BF%99",
+    "标题": "京东到家",
+    "重定向到登录/验证": false,
+    "命中拦截关键词": [],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "美团外卖",
+    "目标": "门店商品列表",
+    "URL": "https://h5.waimai.meituan.com/waimai/mindex/kingkong?navigateType=1",
+    "最终URL": "https://h5.waimai.meituan.com/waimai/mindex/kingkong?navigateType=1",
+    "标题": "美团外卖",
+    "重定向到登录/验证": false,
+    "命中拦截关键词": [],
+    "页面上抓到的价格样本": [],
+    "结论": "不可采价"
+  },
+  {
+    "渠道": "苏宁易购",
+    "目标": "商品搜索",
+    "URL": "https://search.suning.com/%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87/",
+    "结论": "不可采价",
+    "错误": "Error: Page.goto: net::ERR_TIMED_OUT at https://search.suning.com/%E4%B9%90%E4%BA%8B%E8%96%AF%E7%89%87/\nCall log:\n  - navigating to \"https://search.suning.com/%E4%B9%9"
+  }
+]
