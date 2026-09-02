@@ -1,0 +1,51 @@
+﻿task_id,status,original_deliverable,proxy_deliverable,unmet_artifact_requirements
+T01,COMPLETE,500-700 字中文管理周报（含 KPI 表、风险、下周行动）,DOCX（真实文件）+ Markdown 全文：T01_管理周报.docx,无
+T02,COMPLETE,"一页中文决策备忘录（≤1,000 字）",DOCX（真实文件）+ Markdown 全文：T02_CRM采购决策备忘录.docx,无
+T03,COMPLETE,一页董事会简报（≤900 字）,DOCX（真实文件）+ Markdown 全文：T03_董事会月度经营简报.docx,无
+T04,COMPLETE,正式会议纪要 + 行动项表,DOCX（真实文件）+ Markdown 全文：T04_会议纪要与行动项.docx,无
+T05,COMPLETE,"700-1,000 字初步事故复盘",DOCX（真实文件）+ Markdown 全文：T05_生产事故初步复盘.docx,无
+T06,COMPLETE,可编辑 6 页 PPTX + ≤180 字管理层摘要,真实可编辑文件：T06_区域销售经营汇报.pptx、T06_管理层摘要.md（附本说明）,无
+T07,COMPLETE,可编辑 7 页 PPTX（决策请求、定量比较、路线图）,真实可编辑文件：T07_增长战略选项董事会.pptx（附本说明）,无
+T08,COMPLETE,可编辑 5 页中文 PPTX（结论、业绩质量、指引、估值与风险）,真实可编辑文件：T08_季度业绩投资者更新.pptx（附本说明）,无
+T09,COMPLETE,可编辑 8 页中文培训 PPTX（含两道互动题及答案页）,真实可编辑文件：T09_反钓鱼培训课件.pptx（附本说明）,无
+T10,COMPLETE,可编辑 7 页中文 PPTX（销售培训）,真实可编辑文件：T10_新产品销售赋能.pptx（附本说明）,无
+T11,COMPLETE,可编辑 XLSX（Raw/Clean/Summary/Exceptions）,真实可编辑文件：T11_销售数据清洗与汇总.xlsx（附本说明）,无
+T12,COMPLETE,可编辑 XLSX（明细、部门汇总、管理图表、三条结论）,真实可编辑文件：T12_部门预算差异分析.xlsx（附本说明）,无
+T13,COMPLETE,可编辑 XLSX（cohort 热力图、加权留存曲线、≤250 字结论）,真实可编辑文件：T13_订阅用户Cohort留存分析.xlsx（附本说明）,无
+T14,COMPLETE,可编辑 XLSX（补货计算、异常检查、采购清单）,真实可编辑文件：T14_库存补货计算器.xlsx（附本说明）,无
+T15,COMPLETE,可编辑 XLSX（Base/Downside/Assumptions/Dashboard）,真实可编辑文件：T15_六个月现金流情景模型.xlsx（附本说明）,无
+T16,COMPLETE,中文文案包（3 条领英帖子、4 个邮件主题、落地页首屏、30 秒视频脚本）,DOCX（真实文件）+ Markdown 全文：T16_B2B整合营销文案包.docx,无
+T17,COMPLETE,简体中文本地化包（微信推文开头、应用内横幅、两条推送、术语说明）,DOCX（真实文件）+ Markdown 全文：T17_品牌语气本地化包.docx,无
+T18,COMPLETE,客户工单处置表 + 五封中文回复草稿 + 内部升级说明,DOCX（真实文件）+ Markdown 全文：T18_客户投诉分级与回复.docx,无
+T19,COMPLETE,"800–1,200 字中文 RFP 响应（合规矩阵、差距、实施计划、商业假设）",DOCX（真实文件）+ Markdown 全文：T19_企业客户RFP响应.docx,无
+T20,COMPLETE,线索排名表、Top 4 优先策略、Top 3 外联邮件（≤120 字）,DOCX（真实文件）+ Markdown 全文：T20_线索评分与外联.docx,无
+T21,COMPLETE,中文问题清单 + 建议英文修订条款,DOCX（真实文件）+ Markdown 全文：T21_双向NDA条款审阅.docx,无
+T22,COMPLETE,"1,500–2,200 字英文 MSA 草案 + 待确认事项清单",DOCX（真实文件）+ Markdown 全文：T22_MSA_Working_Draft.docx,无
+T23,COMPLETE,中文调查通知 + 经理内部注意事项（≤900 字）,DOCX（真实文件）+ Markdown 全文：T23_员工纪律调查通知.docx,无
+T24,COMPLETE,内部风险评估备忘录 + 条件性客户通知模板,DOCX（真实文件）+ Markdown 全文：T24_隐私事件通知判断.docx,无
+T25,COMPLETE,12 项主张 Green/Yellow/Red 矩阵 + 合规改写,DOCX（真实文件）+ Markdown 全文：T25_营销主张合规审查.docx,无
+T26,COMPLETE,"≤1,000 字中文分析（比较矩阵、两家短名单、验证问题）",DOCX（真实文件）+ Markdown 全文：T26_竞争格局与供应商短名单.docx,无
+T27,COMPLETE,中文市场规模备忘录（公式、上下限、敏感性、结论）,DOCX（真实文件）+ Markdown 全文：T27_市场规模TAM_SAM_SOM.docx,无
+T28,COMPLETE,两页内中文尽调备忘录（风险热图、补充问题、条件性建议）,DOCX（真实文件）+ Markdown 全文：T28_云供应商风险尽调.docx,无
+T29,COMPLETE,"800–1,100 字中文政策建议（引用 S1–S3，含试点与评估指标）",DOCX（真实文件）+ Markdown 全文：T29_混合办公政策备忘录.docx,无
+T30,COMPLETE,"800–1,200 字中文股票研究更新",DOCX（真实文件）+ Markdown 全文：T30_存储公司季度业绩研究.docx,无
+T31,COMPLETE,中文财务数据质量备忘录（勾稽表、疑点、可能修正、待确认问题）,DOCX（真实文件）+ Markdown 全文：T31_三张财务报表勾稽检查.docx,无
+T32,COMPLETE,"1,000–1,400 字中文投资备忘录",DOCX（真实文件）+ Markdown 全文：T32_多情景股票投资备忘录.docx,无
+T33,COMPLETE,中文风险快照（总/净敞口、beta 调整、行业敞口、压力 P&L、两项对冲）,DOCX（真实文件）+ Markdown 全文：T33_组合敞口与压力测试.docx,无
+T34,COMPLETE,可编辑 XLSX（24 个月租赁负债、利息、本金、ROU 折旧、年度汇总）,真实可编辑文件：T34_IFRS16租赁摊销表.xlsx（附本说明）,无
+T35,COMPLETE,可编辑 XLSX + ≤500 字中文采购建议（NPV、敏感性、非价格风险）,真实可编辑文件：T35_采购三年TCO_NPV.xlsx、T35_采购建议.docx（附本说明）,无
+T36,COMPLETE,项目计划表 + 简易甘特图 + RACI + 风险登记册（XLSX）,真实可编辑文件：T36_跨职能上线计划.xlsx（附本说明）,无
+T37,COMPLETE,可执行中文 SOP（角色、步骤、控制点、例外、完成定义）,DOCX（真实文件）+ Markdown 全文：T37_客户上线SOP.docx,无
+T38,COMPLETE,一周排班表 + 约束检查 + 备选方案,DOCX（真实文件）+ Markdown 全文：T38_客服排班优化.docx,无
+T39,COMPLETE,供应商评分表 + 采购建议 + 谈判要点,DOCX（真实文件）+ Markdown 全文：T39_供应商加权评分.docx,无
+T40,COMPLETE,A3 式中文问题分析（缺陷率、Pareto/分层、假设、5 Whys、验证计划）,DOCX（真实文件）+ Markdown 全文：T40_制造缺陷根因初析.docx,无
+T41,COMPLETE,中文岗位说明书 + 结构化招聘评分卡,DOCX（真实文件）+ Markdown 全文：T41_岗位说明书与评分卡.docx,无
+T42,COMPLETE,中文候选人比较表 + 录用建议 + 复核问题,DOCX（真实文件）+ Markdown 全文：T42_面试证据综合与录用建议.docx,无
+T43,COMPLETE,经理谈话脚本 + 30 天改进计划表,DOCX（真实文件）+ Markdown 全文：T43_绩效反馈与30天改进计划.docx,无
+T44,COMPLETE,全员中文公告 + 8 问 FAQ + 经理级联沟通要点,DOCX（真实文件）+ Markdown 全文：T44_办公室搬迁公告与FAQ.docx,无
+T45,COMPLETE,培训需求分析 + 30 天学习计划 + 评估仪表板,DOCX（真实文件）+ Markdown 全文：T45_培训需求分析与30天计划.docx,无
+T46,COMPLETE,收件箱分流表 + 5 封回复草稿 + 今日行动清单（不实际发送）,DOCX（真实文件）+ Markdown 全文：T46_高管收件箱分流.docx,无
+T47,COMPLETE,两日详细议程 + 冲突清单 + 建议改签方案 + 待确认事项,DOCX（真实文件）+ Markdown 全文：T47_跨城市高管差旅议程.docx,无
+T48,COMPLETE,活动方案、预算表、议程、供应商选择、风险清单、待办,DOCX（真实文件）+ Markdown 全文：T48_客户活动方案.docx,无
+T49,COMPLETE,中英差异表 + 修正后的完整简体中文条款,DOCX（真实文件）+ Markdown 全文：T49_双语合同差异核对.docx,无
+T50,COMPLETE,2 页中文董事会备忘录 + 6 页 PPTX + XLSX 指标附录（三件可编辑文件）,真实可编辑文件：T50_董事会备忘录.docx、T50_董事会PPT.pptx、T50_董事会指标附录.xlsx（附本说明）,无
